@@ -1,0 +1,156 @@
+//import "./styles.css";
+import React, { Component } from "react";
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      score: 0,  noOfQsAnswered : 0, isFinished : "false",
+      questionbank: [
+        {
+          qno: 1,
+          q: "What is the capital of France?",
+          op1: "Dublin",
+          op2: "Paris",
+          op3: "Madrid",
+          ans: "Paris",
+          clicked : "false",
+        },
+        {
+          qno: 2,
+          q: "What is the capital of Germany?",
+          op1: "Berlin",
+          op2: "Paris",
+          op3: "Madrid",
+          ans: "Berlin",
+          clicked : "false",
+        },
+        {
+          qno: 3,
+          q: "Who won the Superbowl in 2021?",
+          op1: "Kansas City Chiefs",
+          op2: "Tampa Bay Buccaneers",
+          op3: "New Orleans Saints",
+          ans: "Tampa Bay Buccaneers",
+          clicked : "false",
+        },
+        {
+          qno: 4,
+          q: "Which scientist invented the earliest version of the periodic table?",
+          op1: "Isaac Newton",
+          op2: "Lothar Meyer",
+          op3: "Dmitri Mendeleev",
+          ans: "Dmitri Mendeleev",
+          clicked : "false",
+        }
+      ]
+    };
+    this.checkAnswer = this.checkAnswer.bind(this);
+    this.getScore = this.getScore.bind(this);
+  }
+
+  checkAnswer(questionNumber, answer) { 
+    let n=this.state.noOfQsAnswered;
+    n=n+1;
+    this.setState({ noOfQsAnswered : n });
+    let newQB=this.state.questionbank.map ( el => (
+      el.qno===questionNumber? { ...el, clicked : "true" } : el
+    ))
+    this.setState({questionbank:newQB});
+
+      // we need to find the object in the question bank
+      // so we do a filter for that question. We filter on the qno property
+      let foundQuestion = this.state.questionbank.filter(
+        this.searchForQuestionByQuestionNumber(questionNumber)
+      );
+      // filter always returns an array 
+      // one element - so we need to say element [0]
+      if (foundQuestion[0].ans === answer) {
+         // increment the score  
+        let currScore = this.state.score + 1;
+        this.setState({ score: currScore });
+      }
+  }
+  // find the question in the questionBank 
+  searchForQuestionByQuestionNumber(qNumber) {
+    return function (theQuestionObject) {
+      return theQuestionObject.qno === qNumber;
+    };
+  }
+
+  getScore() {
+    this.setState({isFinished:"true"});
+   //return this.state.score;
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <h2>Welcome to MCQ</h2>
+        <h3>Choose your answers carefully. For each question you can press any button only once.</h3>
+        {this.state.questionbank.map((q) => (
+          <div key={q.qno}>
+            <b>Question{q.qno}</b>:{q.q}
+            <br /> <b>Options:</b>
+            <br /> 1.&nbsp;&nbsp;{q.op1}&nbsp;&nbsp;
+            <button
+              disabled={ q.clicked==="true" }
+              onClick={() => {
+                this.checkAnswer(q.qno, q.op1);
+              }}
+            >
+              Select
+            </button>
+            <br />
+            <br /> 2.&nbsp;&nbsp;{q.op2}&nbsp;&nbsp;
+            <button
+              disabled={ q.clicked==="true" }
+              onClick={() => { 
+                this.checkAnswer(q.qno, q.op2);
+              }}
+            >
+              Select
+            </button>
+            <br />
+            <br /> 3.&nbsp;&nbsp;{q.op3}&nbsp;&nbsp;
+            <button
+              disabled={ q.clicked==="true" }
+              onClick={() => {
+                this.checkAnswer(q.qno, q.op3);
+              }}
+            >
+              Select
+            </button>
+            <br />
+            <br />
+          </div>
+        ))} 
+       
+        { this.state.noOfQsAnswered===4 &&
+            <button onClick={ () => {
+                this.getScore();
+              }}
+            >
+              Get My Score!
+            </button>
+        }
+        { this.state.isFinished==="true" && (
+          <Score score={this.state.score} />
+        )}
+      </div>
+    );
+  }
+}
+
+class Score extends Component {
+  render() {
+    const cScoreCard=this.props.score;
+    return (
+      <div className="Score">
+        <h3>Your score is { cScoreCard } </h3>
+      </div>
+    )
+  }
+}
+
+export default App;
