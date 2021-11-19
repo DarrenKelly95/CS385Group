@@ -1,0 +1,46 @@
+{
+     questionbank : [
+        {
+          qno: 1,
+          q: "What is the capital of France?",
+          op1: "Dublin",
+          op2: "Paris",
+          op3: "Madrid",
+          ans: "Paris"
+        },
+        {
+          qno: 2,
+          q: "What is the capital of Germany?",
+          op1: "Berlin",
+          op2: "Paris",
+          op3: "Madrid",
+          ans: "Berlin"
+        },
+        {
+          qno: 3,
+          q: "Who won the Superbowl in 2021?",
+          op1: "Kansas City Chiefs",
+          op2: "Tampa Bay Buccaneers",
+          op3: "New Orleans Saints",
+          ans: "Tampa Bay Buccaneers"
+        },
+        {
+          qno: 4,
+          q:
+            "Which scientist invented the earliest version of the periodic table?",
+          op1: "Isaac Newton",
+          op2: "Lothar Meyer",
+          op3: "Dmitri Mendeleev",
+          ans: "Dmitri Mendeleev"
+        },
+        {
+          qno: 5,
+          q:
+            "Who holds the World Record (male) for the marathon?",
+          op1: "Paul Tergat",
+          op2: "Eliud Kipchoge",
+          op3: "Haile Gebrselassie",
+          ans: "Eliud Kipchoge"
+        }        
+      ]
+}
