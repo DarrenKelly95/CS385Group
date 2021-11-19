@@ -1,5 +1,5 @@
 {
-     questionbank : [
+     questionBank : [
         {
           qno: 1,
           q: "What is the capital of France?",
@@ -26,8 +26,7 @@
         },
         {
           qno: 4,
-          q:
-            "Which scientist invented the earliest version of the periodic table?",
+          q: "Which scientist invented the earliest version of the periodic table?",
           op1: "Isaac Newton",
           op2: "Lothar Meyer",
           op3: "Dmitri Mendeleev",
@@ -35,8 +34,7 @@
         },
         {
           qno: 5,
-          q:
-            "Who holds the World Record (male) for the marathon?",
+          q: "Who holds the World Record (male) for the marathon?",
           op1: "Paul Tergat",
           op2: "Eliud Kipchoge",
           op3: "Haile Gebrselassie",
