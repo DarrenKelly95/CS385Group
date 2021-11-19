@@ -1,0 +1,140 @@
+import React, { Component } from "react";
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      score: 0,
+      questionsAnswered: [],
+      apiData: [],
+      isFetched: false,
+      errorMsg: null,
+    }
+    this.checkAnswer = this.checkAnswer.bind(this);
+  }
+
+  async componentDidMount() {
+    try {
+      const API_URL = "https://raw.githubusercontent.com/dazzakelly95/CS385Group/main/QuestionBank.json";
+      // Fetch or access the service at the API_URL address
+      const response = await fetch(API_URL);
+      // wait for the response. When it arrives, store the JSON version
+      // of the response in this variable.
+      const jsonResult = await response.json();
+      console.log(jsonResult);
+      // update the state variables correctly.
+      this.setState({ apiData: jsonResult.questionBank });
+      this.setState({ isFetched: true });
+    } catch (error) {
+      // In the case of an error ...
+      this.setState({ isFetched: false });
+      // This will be used to display error message.
+      this.setState({ errorMsg: error });
+    } // end of try catch
+  } // end of componentDidMount()
+
+
+  checkAnswer(questionNumber, answer) {
+    // we need to find the object in the question bank
+    // so we do a filter for that question. We filter on the qno property
+    let foundQuestion = this.state.apiData.filter(
+      this.searchForQuestionByQuestionNumber(questionNumber)
+    );
+    // filter always returns an array
+    // one element - so we need to say element [0]
+
+    // add to the questionsAnswered array
+    this.setState({
+      questionsAnswered: this.state.questionsAnswered.concat(
+        foundQuestion[0].qno
+      )
+    });
+
+    console.log(this.state.questionsAnswered);
+    if (foundQuestion[0].ans === answer) {
+      // increment the score
+      let currScore = this.state.score + 1;
+      this.setState({ score: currScore });
+    }
+  }
+  // find the question in the questionBank
+  searchForQuestionByQuestionNumber(qNumber) {
+    return function (theQuestionObject) {
+      return theQuestionObject.qno === qNumber;
+    };
+  }
+
+  render() {
+    if (this.state.errorMsg) {
+      return (
+        <div className="error">
+          <h1>We're very sorry: An error has occured in the API call</h1>
+
+          <p>The error message is: {this.state.errorMsg.toString()}</p>
+        </div>
+      ); // end of return.
+    } else if (this.state.isFetched === false) {
+      return (
+        <div className="fetching">
+          <h1>We are loading your API request........</h1>
+          <p>Your data will be here very soon....</p>
+        </div>
+      ); // end of return
+    } else {
+      console.log(this.state.apiData);
+      // we have no errors and we have data
+    return (
+      <div className="App">
+        <h2>Welcome to MCQ</h2>
+        {this.state.apiData.map((q) => (
+          <div key={q.qno}>
+            <hr/>
+            <b>Question{q.qno}</b>:{q.q}
+           
+{this.state.questionsAnswered.includes(q.qno) && (
+<p><b>Answer provided</b></p>
+)
+}
+
+           {!this.state.questionsAnswered.includes(q.qno) && (
+           <div>
+            <ul>
+            <li>{q.op1}&nbsp;&nbsp;
+            <button
+              onClick={() => {
+                this.checkAnswer(q.qno, q.op1);
+              }}
+            >
+              {q.op1}
+            </button>
+           </li><li>{q.op2}&nbsp;&nbsp;
+            <button
+              onClick={() => {
+                this.checkAnswer(q.qno, q.op2);
+              }}
+            >
+              {q.op2}
+            </button>
+            </li><li>{q.op3}&nbsp;&nbsp;
+            <button
+              onClick={() => {
+                this.checkAnswer(q.qno, q.op3);
+              }}
+            >
+              {q.op3}
+            </button>
+            </li>
+            </ul>
+            
+            </div>
+           )}
+            
+          </div>
+        ))}
+        <h2>Score = {this.state.score}  out of {this.state.apiData.length}</h2>
+      </div>
+    );
+  }
+}
+}
+export default App;
