@@ -1,6 +1,6 @@
 {
 	"questionBank": [{
-			"question": "What is the capital of France?",
+			"question": "What is the Capital of France?",
 			"answerOptions": [{
 					"ans": "Dublin",
 					"isCorrect": false
@@ -17,7 +17,7 @@
 		},
 
 		{
-			"question": "What is the capital of Germany?",
+			"question": "What is the Capital of Germany?",
 			"answerOptions": [{
 					"ans": "Berlin",
 					"isCorrect": true
@@ -34,7 +34,7 @@
 		},
 
 		{
-			"question": "Who won the Superbowl in 2021?",
+			"question": "Who Won the Superbowl in 2021?",
 			"answerOptions": [{
 					"ans": "Kansas City Chiefs",
 					"isCorrect": false
@@ -51,7 +51,7 @@
 		},
 
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "Which Scientist Invented the Earliest Version of the Periodic Table?",
 			"answerOptions": [{
 					"ans": "Isaac Newton",
 					"isCorrect": false
@@ -68,7 +68,7 @@
 		},
 
 		{
-			"question": "Who holds the World Record (male) for the marathon?",
+			"question": "Who holds the World Record (Male) for the Marathon?",
 			"answerOptions": [{
 					"ans": "Paul Tergat",
 					"isCorrect": false
@@ -85,1972 +85,1734 @@
 		},
 		
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "In Which Part of your Body Would you find the Cruciate ligament?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "Knee",
+					"isCorrect": true
+				},
+				{
+					"ans": "Arm",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
+					"ans": "Head",
+					"isCorrect": false
+				}
+			]
+		},
+		
+		{
+			"question": "What is the sSallest Planet in our Solar System?",
+			"answerOptions": [{
+					"ans": "Jupiter",
 					"isCorrect": false
 				},
 				{
-					"ans": "Dmitri Mendeleev",
+					"ans": "Pluto",
+					"isCorrect": true
+				},
+				{
+					"ans": "Mars",
+					"isCorrect": false
+				}
+			]
+		},
+		
+		{
+			"question": "How many times has England won the men’s Football World Cup?",
+			"answerOptions": [{
+					"ans": "1",
+					"isCorrect": true
+				},
+				{
+					"ans": "4",
+					"isCorrect": false
+				},
+				{
+					"ans": "2",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What is the capital of New Zealand?",
+			"answerOptions": [{
+					"ans": "Moscow",
+					"isCorrect": false
+				},
+				{
+					"ans": "Barcelona",
+					"isCorrect": false
+				},
+				{
+					"ans": "Wellington",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "From what grain is the Japanese spirit Sake made?",
+			"answerOptions": [{
+					"ans": "Barley",
+					"isCorrect": false
+				},
+				{
+					"ans": "Rice",
+					"isCorrect": true
+				},
+				{
+					"ans": "Corn",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "Who is the current President of the United States?",
+			"answerOptions": [{
+					"ans": "Joe Biden",
+					"isCorrect": true
+				},
+				{
+					"ans": "Donald Trump",
+					"isCorrect": false
+				},
+				{
+					"ans": "George Bush",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What Sport did David Beckham Play?",
+			"answerOptions": [{
+					"ans": "Rugby",
+					"isCorrect": false
+				},
+				{
+					"ans": "Football",
+					"isCorrect": true
+				},
+				{
+					"ans": "Tennis",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "How Many Member States are in the EU?",
+			"answerOptions": [{
+					"ans": "22",
+					"isCorrect": false
+				},
+				{
+					"ans": "20",
+					"isCorrect": false
+				},
+				{
+					"ans": "27",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "What Language is Spoken in Brazil?",
+			"answerOptions": [{
+					"ans": "English",
+					"isCorrect": false
+				},
+				{
+					"ans": "Spanish",
+					"isCorrect": false
+				},
+				{
+					"ans": "Portuguese",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "What Temperature Centigrade does Water Boil at?",
+			"answerOptions": [{
+					"ans": "50 Degrees Centigrade",
+					"isCorrect": false
+				},
+				{
+					"ans": "100 Degrees Centigrade",
+					"isCorrect": true
+				},
+				{
+					"ans": "75 Degrees Centigrade",
+					"isCorrect": false
+				}
+			]
+		},
+		
+		{
+			"question": "How Many Centimetres in a Metre?",
+			"answerOptions": [{
+					"ans": "100cm",
+					"isCorrect": true
+				},
+				{
+					"ans": "50cm",
+					"isCorrect": false
+				},
+				{
+					"ans": "82cm",
+					"isCorrect": false
+				}
+			]
+		},
+		
+		{
+			"question": "What Company is also the Name of One of the Longest Rivers in the World?",
+			"answerOptions": [{
+					"ans": "Liffey",
+					"isCorrect": false
+				},
+				{
+					"ans": "Nile",
+					"isCorrect": false
+				},
+				{
+					"ans": "Amazon",
 					"isCorrect": true
 				}
 			]
 		},
 		
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "What is the Tallest Mountain in the World?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "Carrauntoohil",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
+					"ans": "Mount Everest",
+					"isCorrect": true
+				},
+				{
+					"ans": "Mount McKinley",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What Language is Spoken in Norway?",
+			"answerOptions": [{
+					"ans": "Norwegian",
+					"isCorrect": true
+				},
+				{
+					"ans": "English",
 					"isCorrect": false
 				},
 				{
-					"ans": "Dmitri Mendeleev",
+					"ans": "Spanish",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What is the Busiest Airport in Britain called?",
+			"answerOptions": [{
+					"ans": "Charles De Gaulle",
+					"isCorrect": false
+				},
+				{
+					"ans": "London Heathrow",
+					"isCorrect": true
+				},
+				{
+					"ans": "London Stansted",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What Number is a Baker’s Dozen?",
+			"answerOptions": [{
+					"ans": "6",
+					"isCorrect": false
+				},
+				{
+					"ans": "12",
+					"isCorrect": false
+				},
+				{
+					"ans": "13",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "What Colour are most Buses in London?",
+			"answerOptions": [{
+					"ans": "Red",
+					"isCorrect": true
+				},
+				{
+					"ans": "Green",
+					"isCorrect": false
+				},
+				{
+					"ans": "Yellow",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What’s the Name of the Cowboy in Toy Story?",
+			"answerOptions": [{
+					"ans": "Woody",
+					"isCorrect": true
+				},
+				{
+					"ans": "Buzz",
+					"isCorrect": false
+				},
+				{
+					"ans": "Mr. Potatoe Head",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "How many Planets are in our Solar System?",
+			"answerOptions": [{
+					"ans": "3",
+					"isCorrect": false
+				},
+				{
+					"ans": "8",
+					"isCorrect": true
+				},
+				{
+					"ans": "5",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "How many Players are in a Football Team?",
+			"answerOptions": [{
+					"ans": "5",
+					"isCorrect": false
+				},
+				{
+					"ans": "9",
+					"isCorrect": false
+				},
+				{
+					"ans": "11",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "How many Zeros are there in One Thousand?",
+			"answerOptions": [{
+					"ans": "Four",
+					"isCorrect": false
+				},
+				{
+					"ans": "Three",
+					"isCorrect": true
+				},
+				{
+					"ans": "Five",
+					"isCorrect": false
+				}
+			]
+		},
+		
+		{
+			"question": "Which Planet has the Most Moons?",
+			"answerOptions": [{
+					"ans": "Saturn",
+					"isCorrect": true
+				},
+				{
+					"ans": "Mars",
+					"isCorrect": false
+				},
+				{
+					"ans": "Uranus",
+					"isCorrect": false
+				}
+			]
+		},
+		
+		{
+			"question": "Where is the Smallest Bone in the Human Body Located?",
+			"answerOptions": [{
+					"ans": "Arm",
+					"isCorrect": false
+				},
+				{
+					"ans": "Ear",
+					"isCorrect": true
+				},
+				{
+					"ans": "Leg",
+					"isCorrect": false
+				}
+			]
+		},
+		
+		{
+			"question": "Elon Musk is the CEO of which global brand?",
+			"answerOptions": [{
+					"ans": "Tesla",
+					"isCorrect": true
+				},
+				{
+					"ans": "BMW",
+					"isCorrect": false
+				},
+				{
+					"ans": "Ford",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "Who is the former drummer of Nirvana who fronts the Foo Fighters?",
+			"answerOptions": [{
+					"ans": "Brian Johnson",
+					"isCorrect": false
+				},
+				{
+					"ans": "Steven Tyler",
+					"isCorrect": false
+				},
+				{
+					"ans": "Dave Grohl",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "Which was the name of Daniel Craig’s first Bond film?",
+			"answerOptions": [{
+					"ans": "Spectre",
+					"isCorrect": false
+				},
+				{
+					"ans": "Casino Royal",
+					"isCorrect": true
+				},
+				{
+					"ans": "No Time to Die",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What instrument does Lisa Simpson play?",
+			"answerOptions": [{
+					"ans": "Saxophone",
+					"isCorrect": true
+				},
+				{
+					"ans": "Guitar",
+					"isCorrect": false
+				},
+				{
+					"ans": "Drums",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "How many Grand Slam singles titles has Serena Williams won?",
+			"answerOptions": [{
+					"ans": "10",
+					"isCorrect": false
+				},
+				{
+					"ans": "23",
+					"isCorrect": true
+				},
+				{
+					"ans": "12",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "How many majors has Rory McIlroy won in his career so far?",
+			"answerOptions": [{
+					"ans": "Three",
+					"isCorrect": false
+				},
+				{
+					"ans": "Two",
+					"isCorrect": false
+				},
+				{
+					"ans": "Four",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "Muhammed Ali was born in which US state?",
+			"answerOptions": [{
+					"ans": "California",
+					"isCorrect": false
+				},
+				{
+					"ans": "New York",
+					"isCorrect": false
+				},
+				{
+					"ans": "Kentucky",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "In which century did Rembrandt live?",
+			"answerOptions": [{
+					"ans": "20th",
+					"isCorrect": false
+				},
+				{
+					"ans": "17th",
+					"isCorrect": true
+				},
+				{
+					"ans": "10th",
+					"isCorrect": false
+				}
+			]
+		},
+		
+		{
+			"question": "The capital of Iceland is?",
+			"answerOptions": [{
+					"ans": "Reykjavík",
+					"isCorrect": true
+				},
+				{
+					"ans": "London",
+					"isCorrect": false
+				},
+				{
+					"ans": "Copenhagen",
+					"isCorrect": false
+				}
+			]
+		},
+		
+		{
+			"question": "What’s the capital of Belgium?",
+			"answerOptions": [{
+					"ans": "Ottawa",
+					"isCorrect": false
+				},
+				{
+					"ans": "Brasilia",
+					"isCorrect": false
+				},
+				{
+					"ans": "Brussels",
 					"isCorrect": true
 				}
 			]
 		},
 		
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "What is the capital of Bulgaria?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "Carrauntoohil",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
+					"ans": "Sofia",
+					"isCorrect": true
+				},
+				{
+					"ans": "Mount McKinley",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What Language is Spoken in Norway?",
+			"answerOptions": [{
+					"ans": "Norwegian",
+					"isCorrect": true
+				},
+				{
+					"ans": "English",
 					"isCorrect": false
 				},
 				{
-					"ans": "Dmitri Mendeleev",
+					"ans": "Spanish",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "Beirut is the capital of which country?",
+			"answerOptions": [{
+					"ans": "Lebanon",
+					"isCorrect": true
+				},
+				{
+					"ans": "Russia",
+					"isCorrect": false
+				},
+				{
+					"ans": "France",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What is the capital of Canada?",
+			"answerOptions": [{
+					"ans": "Vancouver",
+					"isCorrect": false
+				},
+				{
+					"ans": "Toronto",
+					"isCorrect": false
+				},
+				{
+					"ans": "Ottawa",
 					"isCorrect": true
 				}
 			]
 		},
 
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "Hanoi is the capital of which country?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
+					"ans": "Vietnam",
 					"isCorrect": true
+				},
+				{
+					"ans": "Cambodia",
+					"isCorrect": false
+				},
+				{
+					"ans": "South Korea",
+					"isCorrect": false
 				}
 			]
 		},
 
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "What is the capital of Argentina?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
+					"ans": "Buenos Aries",
 					"isCorrect": true
+				},
+				{
+					"ans": "Brasilia",
+					"isCorrect": false
+				},
+				{
+					"ans": "London",
+					"isCorrect": false
 				}
 			]
 		},
 
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "Slovakia’s capital is?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "Beirut",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
+					"ans": "Bratislava",
 					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "What is the capital of Germany?",
-			"answerOptions": [{
+				},
+				{
 					"ans": "Berlin",
-					"isCorrect": true
-				},
-				{
-					"ans": "Paris",
-					"isCorrect": false
-				},
-				{
-					"ans": "Madrid",
 					"isCorrect": false
 				}
 			]
 		},
 
 		{
-			"question": "Who won the Superbowl in 2021?",
+			"question": "What year did Ireland join the EEC, now known as the European Union?",
 			"answerOptions": [{
-					"ans": "Kansas City Chiefs",
+					"ans": "1986",
 					"isCorrect": false
 				},
 				{
-					"ans": "Tampa Bay Buccaneers",
-					"isCorrect": true
-				},
-				{
-					"ans": "New Orleans Saints",
-					"isCorrect": false
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "1999",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
+					"ans": "1973",
 					"isCorrect": true
 				}
 			]
 		},
 
 		{
-			"question": "Who holds the World Record (male) for the marathon?",
+			"question": "In which state was former US President Barack Obama born?",
 			"answerOptions": [{
-					"ans": "Paul Tergat",
+					"ans": "Florida",
 					"isCorrect": false
 				},
 				{
-					"ans": "Eliud Kipchoge",
+					"ans": "Hawaii",
 					"isCorrect": true
 				},
 				{
-					"ans": "Haile Gebrselassie",
+					"ans": "Nebraska",
 					"isCorrect": false
 				}
 			]
 		},
 		
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "O’Hare Airport serves which American city?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "What is the capital of Germany?",
-			"answerOptions": [{
-					"ans": "Berlin",
+					"ans": "Chicago",
 					"isCorrect": true
 				},
 				{
-					"ans": "Paris",
+					"ans": "Boston",
 					"isCorrect": false
 				},
 				{
-					"ans": "Madrid",
-					"isCorrect": false
-				}
-			]
-		},
-
-		{
-			"question": "Who won the Superbowl in 2021?",
-			"answerOptions": [{
-					"ans": "Kansas City Chiefs",
-					"isCorrect": false
-				},
-				{
-					"ans": "Tampa Bay Buccaneers",
-					"isCorrect": true
-				},
-				{
-					"ans": "New Orleans Saints",
-					"isCorrect": false
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Who holds the World Record (male) for the marathon?",
-			"answerOptions": [{
-					"ans": "Paul Tergat",
-					"isCorrect": false
-				},
-				{
-					"ans": "Eliud Kipchoge",
-					"isCorrect": true
-				},
-				{
-					"ans": "Haile Gebrselassie",
+					"ans": "New York",
 					"isCorrect": false
 				}
 			]
 		},
 		
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "Bohemian Switzerland National Park is in which country?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "Slovakia",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "What is the capital of Germany?",
-			"answerOptions": [{
-					"ans": "Berlin",
+					"ans": "Czech Republic",
 					"isCorrect": true
 				},
 				{
-					"ans": "Paris",
-					"isCorrect": false
-				},
-				{
-					"ans": "Madrid",
-					"isCorrect": false
-				}
-			]
-		},
-
-		{
-			"question": "Who won the Superbowl in 2021?",
-			"answerOptions": [{
-					"ans": "Kansas City Chiefs",
-					"isCorrect": false
-				},
-				{
-					"ans": "Tampa Bay Buccaneers",
-					"isCorrect": true
-				},
-				{
-					"ans": "New Orleans Saints",
-					"isCorrect": false
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Who holds the World Record (male) for the marathon?",
-			"answerOptions": [{
-					"ans": "Paul Tergat",
-					"isCorrect": false
-				},
-				{
-					"ans": "Eliud Kipchoge",
-					"isCorrect": true
-				},
-				{
-					"ans": "Haile Gebrselassie",
+					"ans": "Denmark",
 					"isCorrect": false
 				}
 			]
 		},
 		
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "Which lake is often described as the jewel of the Italian lakes?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "What is the capital of Germany?",
-			"answerOptions": [{
-					"ans": "Berlin",
+					"ans": "Lake Como",
 					"isCorrect": true
 				},
 				{
-					"ans": "Paris",
+					"ans": "Lake Michigan",
 					"isCorrect": false
 				},
 				{
-					"ans": "Madrid",
+					"ans": "Lough Derg",
 					"isCorrect": false
 				}
 			]
 		},
 
 		{
-			"question": "Who won the Superbowl in 2021?",
+			"question": "In which country would you find the original Legoland?",
 			"answerOptions": [{
-					"ans": "Kansas City Chiefs",
+					"ans": "Japan",
 					"isCorrect": false
 				},
 				{
-					"ans": "Tampa Bay Buccaneers",
-					"isCorrect": true
-				},
-				{
-					"ans": "New Orleans Saints",
-					"isCorrect": false
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "Brazil",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
+					"ans": "Denmark",
 					"isCorrect": true
 				}
 			]
 		},
 
 		{
-			"question": "Who holds the World Record (male) for the marathon?",
+			"question": "A DNA molecule is described as being what shape?",
 			"answerOptions": [{
-					"ans": "Paul Tergat",
+					"ans": "Circle",
 					"isCorrect": false
 				},
 				{
-					"ans": "Eliud Kipchoge",
+					"ans": "Double Helix",
 					"isCorrect": true
 				},
 				{
-					"ans": "Haile Gebrselassie",
+					"ans": "Square",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "Botany is the study of what life form?",
+			"answerOptions": [{
+					"ans": "Insects",
+					"isCorrect": true
+				},
+				{
+					"ans": "Birds",
+					"isCorrect": false
+				},
+				{
+					"ans": "Plants",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "Which process converts sugar to acids, alcohol or gases?",
+			"answerOptions": [{
+					"ans": "Osmosis",
+					"isCorrect": false
+				},
+				{
+					"ans": "Fermentation",
+					"isCorrect": true
+				},
+				{
+					"ans": "Evaporation",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "Which chamber of the heart pumps deoxygenated blood to the lungs?",
+			"answerOptions": [{
+					"ans": "Aorta",
+					"isCorrect": false
+				},
+				{
+					"ans": "Left Ventricle",
+					"isCorrect": false
+				},
+				{
+					"ans": "Right Ventricle",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "What is the largest animal on the planet?",
+			"answerOptions": [{
+					"ans": "Shark",
+					"isCorrect": false
+				},
+				{
+					"ans": "Elephant",
+					"isCorrect": false
+				},
+				{
+					"ans": "Blue Whale",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "Give the full name of Adrien Brody’s character in the fourth season",
+			"answerOptions": [{
+					"ans": "Arthur Shelby",
+					"isCorrect": false
+				},
+				{
+					"ans": "Luca Changretta",
+					"isCorrect": true
+				},
+				{
+					"ans": "Aberama Gold",
 					"isCorrect": false
 				}
 			]
 		},
 		
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "Who plays John J Rambo in Rambo?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "What is the capital of Germany?",
-			"answerOptions": [{
-					"ans": "Berlin",
+					"ans": "Sylvester Stallone",
 					"isCorrect": true
 				},
 				{
-					"ans": "Paris",
+					"ans": "Bruce Willis",
 					"isCorrect": false
 				},
 				{
-					"ans": "Madrid",
-					"isCorrect": false
-				}
-			]
-		},
-
-		{
-			"question": "Who won the Superbowl in 2021?",
-			"answerOptions": [{
-					"ans": "Kansas City Chiefs",
-					"isCorrect": false
-				},
-				{
-					"ans": "Tampa Bay Buccaneers",
-					"isCorrect": true
-				},
-				{
-					"ans": "New Orleans Saints",
-					"isCorrect": false
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Who holds the World Record (male) for the marathon?",
-			"answerOptions": [{
-					"ans": "Paul Tergat",
-					"isCorrect": false
-				},
-				{
-					"ans": "Eliud Kipchoge",
-					"isCorrect": true
-				},
-				{
-					"ans": "Haile Gebrselassie",
+					"ans": "Tom Hanks",
 					"isCorrect": false
 				}
 			]
 		},
 		
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "What iconic weapon does the Bride use in Kill Bill?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "Catapult",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
+					"ans": "Gun",
 					"isCorrect": false
 				},
 				{
-					"ans": "Dmitri Mendeleev",
+					"ans": "Samurai sword/katana",
 					"isCorrect": true
 				}
 			]
 		},
 		
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "How many bones are there in the average adult human body?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "195",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "What is the capital of Germany?",
-			"answerOptions": [{
-					"ans": "Berlin",
+					"ans": "206",
 					"isCorrect": true
 				},
 				{
-					"ans": "Paris",
-					"isCorrect": false
-				},
-				{
-					"ans": "Madrid",
+					"ans": "251",
 					"isCorrect": false
 				}
 			]
 		},
 
 		{
-			"question": "Who won the Superbowl in 2021?",
+			"question": "What two countries were already involved in a military conflict before the beginning of World War II?",
 			"answerOptions": [{
-					"ans": "Kansas City Chiefs",
-					"isCorrect": false
-				},
-				{
-					"ans": "Tampa Bay Buccaneers",
+					"ans": "Japan & China",
 					"isCorrect": true
 				},
 				{
-					"ans": "New Orleans Saints",
+					"ans": "Germany & France",
+					"isCorrect": false
+				},
+				{
+					"ans": "Japan & India",
 					"isCorrect": false
 				}
 			]
 		},
 
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "What was the longest battle of World War II?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "Battle of Midway",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Who holds the World Record (male) for the marathon?",
-			"answerOptions": [{
-					"ans": "Paul Tergat",
-					"isCorrect": false
-				},
-				{
-					"ans": "Eliud Kipchoge",
+					"ans": "Battle of the Atlantic",
 					"isCorrect": true
 				},
 				{
-					"ans": "Haile Gebrselassie",
-					"isCorrect": false
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "What is the capital of Germany?",
-			"answerOptions": [{
-					"ans": "Berlin",
-					"isCorrect": true
-				},
-				{
-					"ans": "Paris",
-					"isCorrect": false
-				},
-				{
-					"ans": "Madrid",
+					"ans": "Battle of the Bulge",
 					"isCorrect": false
 				}
 			]
 		},
 
 		{
-			"question": "Who won the Superbowl in 2021?",
+			"question": "What was the first Nazi concentration camp?",
 			"answerOptions": [{
-					"ans": "Kansas City Chiefs",
+					"ans": "Chelmno",
 					"isCorrect": false
 				},
 				{
-					"ans": "Tampa Bay Buccaneers",
-					"isCorrect": true
-				},
-				{
-					"ans": "New Orleans Saints",
-					"isCorrect": false
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "Auschwitz",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
+					"ans": "Dachau",
 					"isCorrect": true
 				}
 			]
 		},
 
 		{
-			"question": "Who holds the World Record (male) for the marathon?",
+			"question": "In which battle did the Axis powers lose about a quarter of their total troops on the Eastern Front?",
 			"answerOptions": [{
-					"ans": "Paul Tergat",
-					"isCorrect": false
-				},
-				{
-					"ans": "Eliud Kipchoge",
+					"ans": "Battle of Stalingrad",
 					"isCorrect": true
 				},
 				{
-					"ans": "Haile Gebrselassie",
+					"ans": "Battle of Kursk",
+					"isCorrect": false
+				},
+				{
+					"ans": "Battle of Leningrad",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What was the name of the B-29 bomber that dropped the first atomic bomb on Hiroshima?",
+			"answerOptions": [{
+					"ans": "Enola Gay",
+					"isCorrect": true
+				},
+				{
+					"ans": "Rosa Parks",
+					"isCorrect": false
+				},
+				{
+					"ans": "Fat Man",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What country lost the most lives in World War II?",
+			"answerOptions": [{
+					"ans": "France",
+					"isCorrect": false
+				},
+				{
+					"ans": "Soviet Union",
+					"isCorrect": true
+				},
+				{
+					"ans": "Germany",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What research and development project produced the first nuclear weapons during World War II?",
+			"answerOptions": [{
+					"ans": "Alan Parsons Project",
+					"isCorrect": false
+				},
+				{
+					"ans": "Philadelphia Project",
+					"isCorrect": false
+				},
+				{
+					"ans": "Manhattan Project",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "What was the code name for the Battle of Normandy?",
+			"answerOptions": [{
+					"ans": "Operation Omaha",
+					"isCorrect": false
+				},
+				{
+					"ans": "Operation Overlord",
+					"isCorrect": true
+				},
+				{
+					"ans": "Operation Panther",
 					"isCorrect": false
 				}
 			]
 		},
 		
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "What was the largest battleship of World War 2?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "What is the capital of Germany?",
-			"answerOptions": [{
-					"ans": "Berlin",
+					"ans": "Yamato",
 					"isCorrect": true
 				},
 				{
-					"ans": "Paris",
+					"ans": "Bismarck",
 					"isCorrect": false
 				},
 				{
-					"ans": "Madrid",
-					"isCorrect": false
-				}
-			]
-		},
-
-		{
-			"question": "Who won the Superbowl in 2021?",
-			"answerOptions": [{
-					"ans": "Kansas City Chiefs",
-					"isCorrect": false
-				},
-				{
-					"ans": "Tampa Bay Buccaneers",
-					"isCorrect": true
-				},
-				{
-					"ans": "New Orleans Saints",
-					"isCorrect": false
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Who holds the World Record (male) for the marathon?",
-			"answerOptions": [{
-					"ans": "Paul Tergat",
-					"isCorrect": false
-				},
-				{
-					"ans": "Eliud Kipchoge",
-					"isCorrect": true
-				},
-				{
-					"ans": "Haile Gebrselassie",
+					"ans": "Missouri",
 					"isCorrect": false
 				}
 			]
 		},
 		
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "In which sport is 180 deemed a perfect score?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "Football",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "What is the capital of Germany?",
-			"answerOptions": [{
-					"ans": "Berlin",
+					"ans": "Darts",
 					"isCorrect": true
 				},
 				{
-					"ans": "Paris",
-					"isCorrect": false
-				},
-				{
-					"ans": "Madrid",
-					"isCorrect": false
-				}
-			]
-		},
-
-		{
-			"question": "Who won the Superbowl in 2021?",
-			"answerOptions": [{
-					"ans": "Kansas City Chiefs",
-					"isCorrect": false
-				},
-				{
-					"ans": "Tampa Bay Buccaneers",
-					"isCorrect": true
-				},
-				{
-					"ans": "New Orleans Saints",
-					"isCorrect": false
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Who holds the World Record (male) for the marathon?",
-			"answerOptions": [{
-					"ans": "Paul Tergat",
-					"isCorrect": false
-				},
-				{
-					"ans": "Eliud Kipchoge",
-					"isCorrect": true
-				},
-				{
-					"ans": "Haile Gebrselassie",
+					"ans": "Rugby",
 					"isCorrect": false
 				}
 			]
 		},
 		
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "The Los Angeles Lakers and New York Knicks play which sport?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "What is the capital of Germany?",
-			"answerOptions": [{
-					"ans": "Berlin",
+					"ans": "Basketball",
 					"isCorrect": true
 				},
 				{
-					"ans": "Paris",
+					"ans": "Soccer",
 					"isCorrect": false
 				},
 				{
-					"ans": "Madrid",
+					"ans": "Surfing",
 					"isCorrect": false
 				}
 			]
 		},
 
 		{
-			"question": "Who won the Superbowl in 2021?",
+			"question": "At which Olympics did Kelly Holmes win two gold medals?",
 			"answerOptions": [{
-					"ans": "Kansas City Chiefs",
+					"ans": "London (2012)",
 					"isCorrect": false
 				},
 				{
-					"ans": "Tampa Bay Buccaneers",
-					"isCorrect": true
-				},
-				{
-					"ans": "New Orleans Saints",
-					"isCorrect": false
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "Tokyo (2020)",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
+					"ans": "Athens (2004)",
 					"isCorrect": true
 				}
 			]
 		},
 
 		{
-			"question": "Who holds the World Record (male) for the marathon?",
+			"question": "Which country’s rugby team is called The Springboks?",
 			"answerOptions": [{
-					"ans": "Paul Tergat",
+					"ans": "France",
 					"isCorrect": false
 				},
 				{
-					"ans": "Eliud Kipchoge",
+					"ans": "South Africa",
 					"isCorrect": true
 				},
 				{
-					"ans": "Haile Gebrselassie",
+					"ans": "England",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "Usain Bolt is still the fastest man in the world, running 100m in 9.58 seconds. In which year did he set that record?",
+			"answerOptions": [{
+					"ans": "2009",
+					"isCorrect": true
+				},
+				{
+					"ans": "2002",
+					"isCorrect": false
+				},
+				{
+					"ans": "2015",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What is Muhammad Ali’s real name?",
+			"answerOptions": [{
+					"ans": "Ghandi",
+					"isCorrect": false
+				},
+				{
+					"ans": "Cassius Clay",
+					"isCorrect": true
+				},
+				{
+					"ans": "Mike Tyson",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "How many balls are in total are there on the table at the start of a game of snooker?",
+			"answerOptions": [{
+					"ans": "15",
+					"isCorrect": false
+				},
+				{
+					"ans": "10",
+					"isCorrect": false
+				},
+				{
+					"ans": "22",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "Complete the name of the current NBA champions: Toronto _____.",
+			"answerOptions": [{
+					"ans": "Patriots",
+					"isCorrect": false
+				},
+				{
+					"ans": "Dolphins",
+					"isCorrect": false
+				},
+				{
+					"ans": "Raptors",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "The Chicago Cubs and Boston Red Sox play which sport?",
+			"answerOptions": [{
+					"ans": "Hurling",
+					"isCorrect": false
+				},
+				{
+					"ans": "Baseball",
+					"isCorrect": true
+				},
+				{
+					"ans": "Football",
 					"isCorrect": false
 				}
 			]
 		},
 		
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "How many MMA fights has UFC star Conor McGregor lost during his career?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-		
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "What is the capital of Germany?",
-			"answerOptions": [{
-					"ans": "Berlin",
+					"ans": "6",
 					"isCorrect": true
 				},
 				{
-					"ans": "Paris",
+					"ans": "2",
 					"isCorrect": false
 				},
 				{
-					"ans": "Madrid",
-					"isCorrect": false
-				}
-			]
-		},
-
-		{
-			"question": "Who won the Superbowl in 2021?",
-			"answerOptions": [{
-					"ans": "Kansas City Chiefs",
-					"isCorrect": false
-				},
-				{
-					"ans": "Tampa Bay Buccaneers",
-					"isCorrect": true
-				},
-				{
-					"ans": "New Orleans Saints",
-					"isCorrect": false
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Who holds the World Record (male) for the marathon?",
-			"answerOptions": [{
-					"ans": "Paul Tergat",
-					"isCorrect": false
-				},
-				{
-					"ans": "Eliud Kipchoge",
-					"isCorrect": true
-				},
-				{
-					"ans": "Haile Gebrselassie",
+					"ans": "4",
 					"isCorrect": false
 				}
 			]
 		},
 		
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "In which sport do teams compete to win the Stanley Cup?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "Soccer",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
+					"ans": "Hurling",
 					"isCorrect": false
 				},
 				{
-					"ans": "Dmitri Mendeleev",
+					"ans": "Ice Hockey",
 					"isCorrect": true
 				}
 			]
 		},
 		
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "In American Football, how many points do you score for a touchdown?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "3",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
+					"ans": "6",
+					"isCorrect": true
+				},
+				{
+					"ans": "2",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "The concept of gravity was discovered by which famous physicist?",
+			"answerOptions": [{
+					"ans": "Sir Isaac Newton",
+					"isCorrect": true
+				},
+				{
+					"ans": "Albert Einstein",
 					"isCorrect": false
 				},
 				{
-					"ans": "Dmitri Mendeleev",
+					"ans": "Charles Darwin",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What is the hardest natural substance on Earth?",
+			"answerOptions": [{
+					"ans": "Chuck Norris",
+					"isCorrect": false
+				},
+				{
+					"ans": "Diamond",
+					"isCorrect": true
+				},
+				{
+					"ans": "Coal",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "Which is the main gas that makes up the Earth’s atmosphere?",
+			"answerOptions": [{
+					"ans": "Carbon Dioxide",
+					"isCorrect": false
+				},
+				{
+					"ans": "Oxygen",
+					"isCorrect": false
+				},
+				{
+					"ans": "Nitrogen",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "Humans and chimpanzees share roughly how much DNA?",
+			"answerOptions": [{
+					"ans": "98%",
+					"isCorrect": true
+				},
+				{
+					"ans": "52%",
+					"isCorrect": false
+				},
+				{
+					"ans": "3%",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "Roughly how long does it take for the sun’s light to reach Earth",
+			"answerOptions": [{
+					"ans": "8 Mins",
+					"isCorrect": true
+				},
+				{
+					"ans": "8 Hours",
+					"isCorrect": false
+				},
+				{
+					"ans": "8 Days",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What modern-day country was Marie Curie born in?",
+			"answerOptions": [{
+					"ans": "Germany",
+					"isCorrect": false
+				},
+				{
+					"ans": "Poland",
+					"isCorrect": true
+				},
+				{
+					"ans": "Spain",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What is the biggest planet in our solar system?",
+			"answerOptions": [{
+					"ans": "Mars",
+					"isCorrect": false
+				},
+				{
+					"ans": "Venus",
+					"isCorrect": false
+				},
+				{
+					"ans": "Jupiter",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "How many vertebrae does the average human possess?",
+			"answerOptions": [{
+					"ans": "11",
+					"isCorrect": false
+				},
+				{
+					"ans": "33",
+					"isCorrect": true
+				},
+				{
+					"ans": "22",
+					"isCorrect": false
+				}
+			]
+		},
+		
+		{
+			"question": "What was the name of the first man-made satellite launched by the Soviet Union in 1957?",
+			"answerOptions": [{
+					"ans": "Sputnik 1",
+					"isCorrect": true
+				},
+				{
+					"ans": "Saturn V",
+					"isCorrect": false
+				},
+				{
+					"ans": "Apollo 13",
+					"isCorrect": false
+				}
+			]
+		},
+		
+		{
+			"question": "Which oath of ethics taken by doctors is named after an Ancient Greek physician?",
+			"answerOptions": [{
+					"ans": "Oath of Alligience",
+					"isCorrect": false
+				},
+				{
+					"ans": "Hippocratic Oath",
+					"isCorrect": true
+				},
+				{
+					"ans": "Oath of Enterprise",
+					"isCorrect": false
+				}
+			]
+		},
+		
+		{
+			"question": "Which Apollo moon mission was the first to carry a lunar rover?",
+			"answerOptions": [{
+					"ans": "Apollo 15",
+					"isCorrect": true
+				},
+				{
+					"ans": "Apollo 12",
+					"isCorrect": false
+				},
+				{
+					"ans": "Apollo 9",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "How many teeth does an adult human have?",
+			"answerOptions": [{
+					"ans": "16",
+					"isCorrect": false
+				},
+				{
+					"ans": "20",
+					"isCorrect": false
+				},
+				{
+					"ans": "32",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "Which social media app only lets you view pictures and messages for a limited time?",
+			"answerOptions": [{
+					"ans": "Facebook",
+					"isCorrect": false
+				},
+				{
+					"ans": "Snapchat",
+					"isCorrect": true
+				},
+				{
+					"ans": "Twitter",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What does a Geiger Counter measure?",
+			"answerOptions": [{
+					"ans": "Radiation",
+					"isCorrect": true
+				},
+				{
+					"ans": "Electricty",
+					"isCorrect": false
+				},
+				{
+					"ans": "Precipitation",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "Which prestigious university did Microsoft founder Bill Gates drop out of?",
+			"answerOptions": [{
+					"ans": "Yale",
+					"isCorrect": false
+				},
+				{
+					"ans": "Harvard",
+					"isCorrect": true
+				},
+				{
+					"ans": "Stanford",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What year did the first Apple iPhone launch?",
+			"answerOptions": [{
+					"ans": "2002",
+					"isCorrect": false
+				},
+				{
+					"ans": "2000",
+					"isCorrect": false
+				},
+				{
+					"ans": "2007",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "What unit of length is equal to around 5.8 trillion miles?",
+			"answerOptions": [{
+					"ans": "Leap year",
+					"isCorrect": false
+				},
+				{
+					"ans": "Soundyear",
+					"isCorrect": false
+				},
+				{
+					"ans": "Lightyear",
+					"isCorrect": true
+				}
+			]
+		},
+
+		{
+			"question": "What is the name of Elon Musk’s aerospace company?",
+			"answerOptions": [{
+					"ans": "Space Y",
+					"isCorrect": false
+				},
+				{
+					"ans": "Space X",
+					"isCorrect": true
+				},
+				{
+					"ans": "Space Z",
+					"isCorrect": false
+				}
+			]
+		},
+		
+		{
+			"question": "Which brothers invented the aeroplane?",
+			"answerOptions": [{
+					"ans": "The Wright Brothers",
+					"isCorrect": true
+				},
+				{
+					"ans": "The Coen Brothers",
+					"isCorrect": false
+				},
+				{
+					"ans": "The Kelly Brothers",
+					"isCorrect": false
+				}
+			]
+		},
+		
+		{
+			"question": "Solar power generates electricity from what source?",
+			"answerOptions": [{
+					"ans": "Water",
+					"isCorrect": false
+				},
+				{
+					"ans": "Wind",
+					"isCorrect": false
+				},
+				{
+					"ans": "Sun",
 					"isCorrect": true
 				}
 			]
 		},
 		
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "In what year was the first transatlantic radio broadcast?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "1911",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
+					"ans": "1901",
+					"isCorrect": true
+				},
+				{
+					"ans": "1921",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "Originally Amazon only sold which product?",
+			"answerOptions": [{
+					"ans": "Books",
+					"isCorrect": true
+				},
+				{
+					"ans": "Radios",
 					"isCorrect": false
 				},
 				{
-					"ans": "Dmitri Mendeleev",
+					"ans": "CD's",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "What is the collective name for a group of crows?",
+			"answerOptions": [{
+					"ans": "A Homicide",
+					"isCorrect": false
+				},
+				{
+					"ans": "A Murder",
+					"isCorrect": true
+				},
+				{
+					"ans": "A Caggle",
+					"isCorrect": false
+				}
+			]
+		},
+
+		{
+			"question": "How many wings does a bee have?",
+			"answerOptions": [{
+					"ans": "Eight",
+					"isCorrect": false
+				},
+				{
+					"ans": "Six",
+					"isCorrect": false
+				},
+				{
+					"ans": "Four",
 					"isCorrect": true
 				}
 			]
 		},
 
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "In which continent would you find Ayer’s Rock?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
+					"ans": "Australia",
 					"isCorrect": true
+				},
+				{
+					"ans": "Antartica",
+					"isCorrect": false
+				},
+				{
+					"ans": "Asia",
+					"isCorrect": false
 				}
 			]
 		},
 
 		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
+			"question": "What is the heaviest insect?",
 			"answerOptions": [{
-					"ans": "Isaac Newton",
+					"ans": "Stick Insect",
 					"isCorrect": false
 				},
 				{
-					"ans": "Lothar Meyer",
+					"ans": "Caterpiller",
 					"isCorrect": false
 				},
 				{
-					"ans": "Dmitri Mendeleev",
-					"isCorrect": true
-				}
-			]
-		},
-
-		{
-			"question": "Which scientist invented the earliest version of the periodic table?",
-			"answerOptions": [{
-					"ans": "Isaac Newton",
-					"isCorrect": false
-				},
-				{
-					"ans": "Lothar Meyer",
-					"isCorrect": false
-				},
-				{
-					"ans": "Dmitri Mendeleev",
+					"ans": "Beetle",
 					"isCorrect": true
 				}
 			]
