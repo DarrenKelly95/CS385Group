@@ -149,7 +149,7 @@
       "id": "195075"
     },
     {
-      "question": 'What is "dabbing"?',
+      "question": "What is 'dabbing'?",
       "options": ["A dance", "A medical procedure", "A sport", "A language"],
       "answer": "A dance",
       "id": "2019778"
@@ -215,7 +215,7 @@
       "id": "2838900"
     },
     {
-      "question": 'What is the French word for "hat"?',
+      "question": "What is the French word for 'hat'?",
       "options": ["Chapeau", "Bonnet", " Écharpe", " Casque"],
       "answer": "Chapeau",
       "id": "298060"
@@ -256,7 +256,7 @@
     },
     {
       "question":
-        'According to Sherlock Holmes, "If you eliminate the impossible, whatever remains, however improbable, must be the..."',
+        "According to Sherlock Holmes, 'If you eliminate the impossible, whatever remains, however improbable, must be the...'",
       "options": ["Truth", "answer", "Cause", "Source"],
       "answer": "Truth",
       "id": "3410327"
@@ -291,7 +291,7 @@
       "id": "3893585"
     },
     {
-      "question": 'What color is the "Ex" in FedEx Ground?',
+      "question": "What color is the 'Ex' in FedEx Ground?",
       "options": ["Green", "Red", "Light Blue", "Orange"],
       "answer": "Green",
       "id": "3913430"
