@@ -1,17 +1,17 @@
-{QuizData = [
+{"QuizData" = [
     {
-      question:
+      "question":
         "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
-      options: ["Richard Branson", "Alan Sugar", "Donald Trump", "Bill Gates"],
-      answer: "Richard Branson",
-      id: "099099"
+      "options": ["Richard Branson", "Alan Sugar", "Donald Trump", "Bill Gates"],
+      "answer": "Richard Branson",
+      "id": "099099"
     },
     {
-      question:
-        'Where is the train station "Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch"?',
-      options: ["Wales", "Moldova", "Czech Republic", "Denmark"],
-      answer: "Wales",
-      id: "183452"
+      "question":
+        'Where is the train station "Llanfair-pwllgwyngyll-gogery-chwyrn-drobwll-llan-tysilio-gogo-goch"?',
+      "options": ["Wales", "Moldova", "Czech Republic", "Denmark"],
+      "answer": "Wales",
+      "id": "183452"
     },
     {
       question:
@@ -369,7 +369,6 @@
       answer: "Arby's",
       id: "4982981"
     }
-     
-  ]
-
-} 
+  ];
+  
+  
