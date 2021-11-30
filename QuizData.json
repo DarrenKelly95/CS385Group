@@ -8,7 +8,7 @@
     },
     {
       "question":
-        'Where is the train station "Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch"?',
+        "Where is the train station 'Llanfair-pwllgwyngyll-gogery-chwyrn-drobwll-llan-tysilio-gogo-goch'?",
       "options": ["Wales", "Moldova", "Czech Republic", "Denmark"],
       "answer": "Wales",
       "id": "183452"
@@ -51,7 +51,7 @@
     },
     {
       "question":
-        'What name represents the letter "M" in the NATO phonetic alphabet?',
+        "What name represents the letter 'M' in the NATO phonetic alphabet?",
       "options": ["Mike", "Matthew", "Mark", "Max"],
       "answer": "Mike",
       "id": "648452"
@@ -257,7 +257,7 @@
     {
       "question":
         'According to Sherlock Holmes, "If you eliminate the impossible, whatever remains, however improbable, must be the..."',
-      "options": ["Truth", ""answer"", "Cause", "Source"],
+      "options": ["Truth", "answer", "Cause", "Source"],
       "answer": "Truth",
       "id": "3410327"
     },
@@ -369,6 +369,6 @@
       "answer": "Arby's",
       "id": "4982981"
     }
-  ];
+  ]
   
   
