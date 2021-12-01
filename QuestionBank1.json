@@ -10,6 +10,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Copenhagen",
+					"isCorrect": false
+				},
+				{
 					"ans": "Madrid",
 					"isCorrect": false
 				}
@@ -24,6 +28,10 @@
 				},
 				{
 					"ans": "Paris",
+					"isCorrect": false
+				},
+				{
+					"ans": "Auckland",
 					"isCorrect": false
 				},
 				{
@@ -44,6 +52,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "New England Patriots",
+					"isCorrect": false
+				},
+				{
 					"ans": "New Orleans Saints",
 					"isCorrect": false
 				}
@@ -58,6 +70,10 @@
 				},
 				{
 					"ans": "Lothar Meyer",
+					"isCorrect": false
+				},
+				{
+					"ans": "Nicolaus Copernicus",
 					"isCorrect": false
 				},
 				{
@@ -78,6 +94,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Mo Farah",
+					"isCorrect": false
+				},
+				{
 					"ans": "Haile Gebrselassie",
 					"isCorrect": false
 				}
@@ -95,6 +115,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "Foot",
+					"isCorrect": false
+				},
+				{
 					"ans": "Head",
 					"isCorrect": false
 				}
@@ -102,7 +126,7 @@
 		},
 		
 		{
-			"question": "What is the sSallest Planet in our Solar System?",
+			"question": "What is the Sallest Planet in our Solar System?",
 			"answerOptions": [{
 					"ans": "Jupiter",
 					"isCorrect": false
@@ -110,6 +134,10 @@
 				{
 					"ans": "Pluto",
 					"isCorrect": true
+				},
+				{
+					"ans": "Venus",
+					"isCorrect": false
 				},
 				{
 					"ans": "Mars",
@@ -126,6 +154,10 @@
 				},
 				{
 					"ans": "4",
+					"isCorrect": false
+				},
+				{
+					"ans": "7",
 					"isCorrect": false
 				},
 				{
@@ -146,6 +178,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "Sydney",
+					"isCorrect": false
+				},
+				{
 					"ans": "Wellington",
 					"isCorrect": true
 				}
@@ -163,6 +199,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Oats",
+					"isCorrect": false
+				},
+				{
 					"ans": "Corn",
 					"isCorrect": false
 				}
@@ -177,6 +217,10 @@
 				},
 				{
 					"ans": "Donald Trump",
+					"isCorrect": false
+				},
+				{
+					"ans": "Barack Obama",
 					"isCorrect": false
 				},
 				{
@@ -197,6 +241,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Vollyball",
+					"isCorrect": false
+				},
+				{
 					"ans": "Tennis",
 					"isCorrect": false
 				}
@@ -211,6 +259,10 @@
 				},
 				{
 					"ans": "20",
+					"isCorrect": false
+				},
+				{
+					"ans": "34",
 					"isCorrect": false
 				},
 				{
@@ -231,6 +283,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "Madarin",
+					"isCorrect": false
+				},
+				{
 					"ans": "Portuguese",
 					"isCorrect": true
 				}
@@ -246,6 +302,10 @@
 				{
 					"ans": "100 Degrees Centigrade",
 					"isCorrect": true
+				},
+				{
+					"ans": "145 Degrees Centigrade",
+					"isCorrect": false
 				},
 				{
 					"ans": "75 Degrees Centigrade",
@@ -265,7 +325,11 @@
 					"isCorrect": false
 				},
 				{
-					"ans": "82cm",
+					"ans": "25cm",
+					"isCorrect": false
+				},
+				{
+					"ans": "80cm",
 					"isCorrect": false
 				}
 			]
@@ -279,6 +343,10 @@
 				},
 				{
 					"ans": "Nile",
+					"isCorrect": false
+				},
+				{
+					"ans": "Mississippi",
 					"isCorrect": false
 				},
 				{
@@ -299,6 +367,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "K2",
+					"isCorrect": false
+				},
+				{
 					"ans": "Mount McKinley",
 					"isCorrect": false
 				}
@@ -313,6 +385,10 @@
 				},
 				{
 					"ans": "English",
+					"isCorrect": false
+				},
+				{
+					"ans": "Danish",
 					"isCorrect": false
 				},
 				{
@@ -333,6 +409,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "London Gatwick",
+					"isCorrect": false
+				},
+				{
 					"ans": "London Stansted",
 					"isCorrect": false
 				}
@@ -347,6 +427,10 @@
 				},
 				{
 					"ans": "12",
+					"isCorrect": false
+				},
+				{
+					"ans": "8",
 					"isCorrect": false
 				},
 				{
@@ -367,6 +451,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "Purple",
+					"isCorrect": false
+				},
+				{
 					"ans": "Yellow",
 					"isCorrect": false
 				}
@@ -384,7 +472,11 @@
 					"isCorrect": false
 				},
 				{
-					"ans": "Mr. Potatoe Head",
+					"ans": "Slinky",
+					"isCorrect": false
+				},
+				{
+					"ans": "Mr. Potato Head",
 					"isCorrect": false
 				}
 			]
@@ -401,6 +493,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "12",
+					"isCorrect": false
+				},
+				{
 					"ans": "5",
 					"isCorrect": false
 				}
@@ -415,6 +511,10 @@
 				},
 				{
 					"ans": "9",
+					"isCorrect": false
+				},
+				{
+					"ans": "15",
 					"isCorrect": false
 				},
 				{
@@ -435,6 +535,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "",
+					"isCorrect": false
+				},
+				{
 					"ans": "Five",
 					"isCorrect": false
 				}
@@ -448,7 +552,11 @@
 					"isCorrect": true
 				},
 				{
-					"ans": "Mars",
+					"ans": "Jupiter",
+					"isCorrect": false
+				},
+				{
+					"ans": "Venus",
 					"isCorrect": false
 				},
 				{
@@ -462,6 +570,10 @@
 			"question": "Where is the Smallest Bone in the Human Body Located?",
 			"answerOptions": [{
 					"ans": "Arm",
+					"isCorrect": false
+				},
+				{
+					"ans": "Foot",
 					"isCorrect": false
 				},
 				{
@@ -486,6 +598,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "Volkswagen",
+					"isCorrect": false
+				},
+				{
 					"ans": "Ford",
 					"isCorrect": false
 				}
@@ -500,6 +616,10 @@
 				},
 				{
 					"ans": "Steven Tyler",
+					"isCorrect": false
+				},
+				{
+					"ans": "Danny Byrne",
 					"isCorrect": false
 				},
 				{
@@ -520,6 +640,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Quantum of Solace",
+					"isCorrect": false
+				},
+				{
 					"ans": "No Time to Die",
 					"isCorrect": false
 				}
@@ -534,6 +658,10 @@
 				},
 				{
 					"ans": "Guitar",
+					"isCorrect": false
+				},
+				{
+					"ans": "Violin",
 					"isCorrect": false
 				},
 				{
@@ -554,6 +682,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "45",
+					"isCorrect": false
+				},
+				{
 					"ans": "12",
 					"isCorrect": false
 				}
@@ -568,6 +700,10 @@
 				},
 				{
 					"ans": "Two",
+					"isCorrect": false
+				},
+				{
+					"ans": "Eight",
 					"isCorrect": false
 				},
 				{
@@ -588,6 +724,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "Massachusetts",
+					"isCorrect": false
+				},
+				{
 					"ans": "Kentucky",
 					"isCorrect": true
 				}
@@ -605,6 +745,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "14th",
+					"isCorrect": false
+				},
+				{
 					"ans": "10th",
 					"isCorrect": false
 				}
@@ -619,6 +763,10 @@
 				},
 				{
 					"ans": "London",
+					"isCorrect": false
+				},
+				{
+					"ans": "Dublin",
 					"isCorrect": false
 				},
 				{
@@ -639,6 +787,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "Amsterdam",
+					"isCorrect": false
+				},
+				{
 					"ans": "Brussels",
 					"isCorrect": true
 				}
@@ -656,6 +808,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Copenhagen",
+					"isCorrect": false
+				},
+				{
 					"ans": "Mount McKinley",
 					"isCorrect": false
 				}
@@ -670,6 +826,10 @@
 				},
 				{
 					"ans": "English",
+					"isCorrect": false
+				},
+				{
+					"ans": "Dutch",
 					"isCorrect": false
 				},
 				{
@@ -690,6 +850,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "Japan",
+					"isCorrect": false
+				},
+				{
 					"ans": "France",
 					"isCorrect": false
 				}
@@ -704,6 +868,10 @@
 				},
 				{
 					"ans": "Toronto",
+					"isCorrect": false
+				},
+				{
+					"ans": "Washington DC",
 					"isCorrect": false
 				},
 				{
@@ -724,6 +892,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "North Korea",
+					"isCorrect": false
+				},
+				{
 					"ans": "South Korea",
 					"isCorrect": false
 				}
@@ -738,6 +910,10 @@
 				},
 				{
 					"ans": "Brasilia",
+					"isCorrect": false
+				},
+				{
+					"ans": "Lima",
 					"isCorrect": false
 				},
 				{
@@ -758,6 +934,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Belfast",
+					"isCorrect": false
+				},
+				{
 					"ans": "Berlin",
 					"isCorrect": false
 				}
@@ -772,6 +952,10 @@
 				},
 				{
 					"ans": "1999",
+					"isCorrect": false
+				},
+				{
+					"ans": "1962",
 					"isCorrect": false
 				},
 				{
@@ -792,6 +976,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "California",
+					"isCorrect": false
+				},
+				{
 					"ans": "Nebraska",
 					"isCorrect": false
 				}
@@ -806,6 +994,10 @@
 				},
 				{
 					"ans": "Boston",
+					"isCorrect": false
+				},
+				{
+					"ans": "California",
 					"isCorrect": false
 				},
 				{
@@ -826,6 +1018,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Ireland",
+					"isCorrect": false
+				},
+				{
 					"ans": "Denmark",
 					"isCorrect": false
 				}
@@ -840,6 +1036,10 @@
 				},
 				{
 					"ans": "Lake Michigan",
+					"isCorrect": false
+				},
+				{
+					"ans": "Loch Ness",
 					"isCorrect": false
 				},
 				{
@@ -860,6 +1060,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "Ireland",
+					"isCorrect": false
+				},
+				{
 					"ans": "Denmark",
 					"isCorrect": true
 				}
@@ -877,6 +1081,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Triangle",
+					"isCorrect": false
+				},
+				{
 					"ans": "Square",
 					"isCorrect": false
 				}
@@ -887,15 +1095,19 @@
 			"question": "Botany is the study of what life form?",
 			"answerOptions": [{
 					"ans": "Insects",
-					"isCorrect": true
+					"isCorrect": false
 				},
 				{
 					"ans": "Birds",
 					"isCorrect": false
 				},
 				{
-					"ans": "Plants",
+					"ans": "Trees",
 					"isCorrect": false
+				},
+				{
+					"ans": "Plants",
+					"isCorrect": true
 				}
 			]
 		},
@@ -909,6 +1121,10 @@
 				{
 					"ans": "Fermentation",
 					"isCorrect": true
+				},
+				{
+					"ans": "Condensation",
+					"isCorrect": false
 				},
 				{
 					"ans": "Evaporation",
@@ -925,6 +1141,10 @@
 				},
 				{
 					"ans": "Left Ventricle",
+					"isCorrect": false
+				},
+				{
+					"ans": "Pulmonary Artery",
 					"isCorrect": false
 				},
 				{
@@ -945,6 +1165,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "Humans",
+					"isCorrect": false
+				},
+				{
 					"ans": "Blue Whale",
 					"isCorrect": true
 				}
@@ -962,6 +1186,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Thomas Shelby",
+					"isCorrect": false
+				},
+				{
 					"ans": "Aberama Gold",
 					"isCorrect": false
 				}
@@ -976,6 +1204,10 @@
 				},
 				{
 					"ans": "Bruce Willis",
+					"isCorrect": false
+				},
+				{
+					"ans": "Arnold Schwarzenegger",
 					"isCorrect": false
 				},
 				{
@@ -996,6 +1228,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "Axe",
+					"isCorrect": false
+				},
+				{
 					"ans": "Samurai sword/katana",
 					"isCorrect": true
 				}
@@ -1013,6 +1249,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "310",
+					"isCorrect": false
+				},
+				{
 					"ans": "251",
 					"isCorrect": false
 				}
@@ -1027,6 +1267,10 @@
 				},
 				{
 					"ans": "Germany & France",
+					"isCorrect": false
+				},
+				{
+					"ans": "America & Australia",
 					"isCorrect": false
 				},
 				{
@@ -1047,6 +1291,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Battle of the Somme",
+					"isCorrect": false
+				},
+				{
 					"ans": "Battle of the Bulge",
 					"isCorrect": false
 				}
@@ -1061,6 +1309,10 @@
 				},
 				{
 					"ans": "Auschwitz",
+					"isCorrect": false
+				},
+				{
+					"ans": "Birkenau",
 					"isCorrect": false
 				},
 				{
@@ -1081,6 +1333,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "Battle of Ypres",
+					"isCorrect": false
+				},
+				{
 					"ans": "Battle of Leningrad",
 					"isCorrect": false
 				}
@@ -1095,6 +1351,10 @@
 				},
 				{
 					"ans": "Rosa Parks",
+					"isCorrect": false
+				},
+				{
+					"ans": "Little Boy",
 					"isCorrect": false
 				},
 				{
@@ -1115,6 +1375,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Great Britain",
+					"isCorrect": false
+				},
+				{
 					"ans": "Germany",
 					"isCorrect": false
 				}
@@ -1129,6 +1393,10 @@
 				},
 				{
 					"ans": "Philadelphia Project",
+					"isCorrect": false
+				},
+				{
+					"ans": "Northside Project",
 					"isCorrect": false
 				},
 				{
@@ -1149,6 +1417,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Operation Rolling Thunder",
+					"isCorrect": false
+				},
+				{
 					"ans": "Operation Panther",
 					"isCorrect": false
 				}
@@ -1163,6 +1435,10 @@
 				},
 				{
 					"ans": "Bismarck",
+					"isCorrect": false
+				},
+				{
+					"ans": "Cumberland",
 					"isCorrect": false
 				},
 				{
@@ -1183,6 +1459,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Basketball",
+					"isCorrect": false
+				},
+				{
 					"ans": "Rugby",
 					"isCorrect": false
 				}
@@ -1197,6 +1477,10 @@
 				},
 				{
 					"ans": "Soccer",
+					"isCorrect": false
+				},
+				{
+					"ans": "Hurling",
 					"isCorrect": false
 				},
 				{
@@ -1217,6 +1501,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "Atlanta",
+					"isCorrect": false
+				},
+				{
 					"ans": "Athens (2004)",
 					"isCorrect": true
 				}
@@ -1234,6 +1522,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Ireland",
+					"isCorrect": false
+				},
+				{
 					"ans": "England",
 					"isCorrect": false
 				}
@@ -1248,6 +1540,10 @@
 				},
 				{
 					"ans": "2002",
+					"isCorrect": false
+				},
+				{
+					"ans": "2018",
 					"isCorrect": false
 				},
 				{
@@ -1268,6 +1564,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Conor McGregor",
+					"isCorrect": false
+				},
+				{
 					"ans": "Mike Tyson",
 					"isCorrect": false
 				}
@@ -1282,6 +1582,10 @@
 				},
 				{
 					"ans": "10",
+					"isCorrect": false
+				},
+				{
+					"ans": "12",
 					"isCorrect": false
 				},
 				{
@@ -1302,6 +1606,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "Seahawks",
+					"isCorrect": false
+				},
+				{
 					"ans": "Raptors",
 					"isCorrect": true
 				}
@@ -1319,6 +1627,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Fencing",
+					"isCorrect": false
+				},
+				{
 					"ans": "Football",
 					"isCorrect": false
 				}
@@ -1333,6 +1645,10 @@
 				},
 				{
 					"ans": "2",
+					"isCorrect": false
+				},
+				{
+					"ans": "8",
 					"isCorrect": false
 				},
 				{
@@ -1353,6 +1669,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "Basketball",
+					"isCorrect": false
+				},
+				{
 					"ans": "Ice Hockey",
 					"isCorrect": true
 				}
@@ -1370,6 +1690,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "4",
+					"isCorrect": false
+				},
+				{
 					"ans": "2",
 					"isCorrect": false
 				}
@@ -1384,6 +1708,10 @@
 				},
 				{
 					"ans": "Albert Einstein",
+					"isCorrect": false
+				},
+				{
+					"ans": "Nicolaus Copernicus",
 					"isCorrect": false
 				},
 				{
@@ -1404,6 +1732,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Copper",
+					"isCorrect": false
+				},
+				{
 					"ans": "Coal",
 					"isCorrect": false
 				}
@@ -1418,6 +1750,10 @@
 				},
 				{
 					"ans": "Oxygen",
+					"isCorrect": false
+				},
+				{
+					"ans": "Hydrogen",
 					"isCorrect": false
 				},
 				{
@@ -1438,6 +1774,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "45%",
+					"isCorrect": false
+				},
+				{
 					"ans": "3%",
 					"isCorrect": false
 				}
@@ -1452,6 +1792,10 @@
 				},
 				{
 					"ans": "8 Hours",
+					"isCorrect": false
+				},
+				{
+					"ans": "8 Years",
 					"isCorrect": false
 				},
 				{
@@ -1472,6 +1816,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "France",
+					"isCorrect": false
+				},
+				{
 					"ans": "Spain",
 					"isCorrect": false
 				}
@@ -1486,6 +1834,10 @@
 				},
 				{
 					"ans": "Venus",
+					"isCorrect": false
+				},
+				{
+					"ans": "Mercury",
 					"isCorrect": false
 				},
 				{
@@ -1506,6 +1858,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "44",
+					"isCorrect": false
+				},
+				{
 					"ans": "22",
 					"isCorrect": false
 				}
@@ -1520,6 +1876,10 @@
 				},
 				{
 					"ans": "Saturn V",
+					"isCorrect": false
+				},
+				{
+					"ans": "Mercury 4",
 					"isCorrect": false
 				},
 				{
@@ -1540,6 +1900,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Oath of Voyage",
+					"isCorrect": false
+				},
+				{
 					"ans": "Oath of Enterprise",
 					"isCorrect": false
 				}
@@ -1554,6 +1918,10 @@
 				},
 				{
 					"ans": "Apollo 12",
+					"isCorrect": false
+				},
+				{
+					"ans": "Apollo 11",
 					"isCorrect": false
 				},
 				{
@@ -1574,6 +1942,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "40",
+					"isCorrect": false
+				},
+				{
 					"ans": "32",
 					"isCorrect": true
 				}
@@ -1591,6 +1963,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "TikTok",
+					"isCorrect": false
+				},
+				{
 					"ans": "Twitter",
 					"isCorrect": false
 				}
@@ -1605,6 +1981,10 @@
 				},
 				{
 					"ans": "Electricty",
+					"isCorrect": false
+				},
+				{
+					"ans": "Resistance",
 					"isCorrect": false
 				},
 				{
@@ -1625,6 +2005,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "UCLA",
+					"isCorrect": false
+				},
+				{
 					"ans": "Stanford",
 					"isCorrect": false
 				}
@@ -1642,6 +2026,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "2005",
+					"isCorrect": false
+				},
+				{
 					"ans": "2007",
 					"isCorrect": true
 				}
@@ -1651,11 +2039,15 @@
 		{
 			"question": "What unit of length is equal to around 5.8 trillion miles?",
 			"answerOptions": [{
-					"ans": "Leap year",
+					"ans": "Leapyear",
 					"isCorrect": false
 				},
 				{
 					"ans": "Soundyear",
+					"isCorrect": false
+				},
+				{
+					"ans": "Smellyear",
 					"isCorrect": false
 				},
 				{
@@ -1676,6 +2068,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "Space B",
+					"isCorrect": false
+				},
+				{
 					"ans": "Space Z",
 					"isCorrect": false
 				}
@@ -1690,6 +2086,10 @@
 				},
 				{
 					"ans": "The Coen Brothers",
+					"isCorrect": false
+				},
+				{
+					"ans": "The Murphy Brothers",
 					"isCorrect": false
 				},
 				{
@@ -1710,6 +2110,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "Souls",
+					"isCorrect": false
+				},
+				{
 					"ans": "Sun",
 					"isCorrect": true
 				}
@@ -1727,6 +2131,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "1899",
+					"isCorrect": false
+				},
+				{
 					"ans": "1921",
 					"isCorrect": false
 				}
@@ -1741,6 +2149,10 @@
 				},
 				{
 					"ans": "Radios",
+					"isCorrect": false
+				},
+				{
+					"ans": "Phones",
 					"isCorrect": false
 				},
 				{
@@ -1761,6 +2173,10 @@
 					"isCorrect": true
 				},
 				{
+					"ans": "A Staple",
+					"isCorrect": false
+				},
+				{
 					"ans": "A Caggle",
 					"isCorrect": false
 				}
@@ -1775,6 +2191,10 @@
 				},
 				{
 					"ans": "Six",
+					"isCorrect": false
+				},
+				{
+					"ans": "Ten",
 					"isCorrect": false
 				},
 				{
@@ -1795,6 +2215,10 @@
 					"isCorrect": false
 				},
 				{
+					"ans": "America",
+					"isCorrect": false
+				},
+				{
 					"ans": "Asia",
 					"isCorrect": false
 				}
@@ -1805,6 +2229,10 @@
 			"question": "What is the heaviest insect?",
 			"answerOptions": [{
 					"ans": "Stick Insect",
+					"isCorrect": false
+				},
+				{
+					"ans": "Bee",
 					"isCorrect": false
 				},
 				{
