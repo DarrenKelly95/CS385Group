@@ -1,0 +1,130 @@
+import React, { useState, useEffect } from "react";
+import "./styles.css";
+
+function App() {
+  const [questions, setQuestions] = useState([]);
+  const [counter, setCounter] = useState(0);
+  const [score, setScore] = useState(0);
+  const [showScore, setShowScore] = useState(false);
+  const [answered, setAnswered] = useState([]);
+
+  //Fetches the 'questionBank' array from the json file in to the local array 'questions'
+  useEffect(() => {
+    fetch(
+      "https://raw.githubusercontent.com/dazzakelly95/CS385Group/main/QuestionBank1.json"
+    )
+      .then((results) => results.json())
+      .then((data) => {
+        setQuestions(data.questionBank);
+      });
+  }, []);
+
+
+  // This function is invoked when the user clicks on an answer button
+  function handleAnswerOptionClick(isCorrect, answeredQuestion, answer) {
+    //The if part executes when the user clicks on the correct answer button
+    //As we are displaying 10 random questions each time from a selection of 107 questions,
+    //We have to keep track of the questions that are being displayed.
+    //We are capturing them in to the array 'answered', along with a feedback message 
+    //and the correct answer
+    if (isCorrect) {
+      setAnswered(
+        answered.concat(
+          answeredQuestion,
+          "You answered correctly. Correct answer is ",
+          answer
+        )
+      );
+      // score gets incremented each time if the answer is correct
+      setScore(score + 1);
+    } 
+    else {
+      let i;
+      var tempAnswer = "";
+
+      // getting the wrongly answered question and the answer options from 'questions' in to
+      // foundQuestion by using filter function 'searchForAnswerByQuestion'
+      let foundQuestion = questions.filter(
+        searchForAnswerByQuestion(answeredQuestion)
+      );
+      console.log(foundQuestion[0]);
+      
+      // traversing through the 'answerOptions' array to find the correct answer
+      for (i = 0; i < 4; i++) {
+        if (foundQuestion[0].answerOptions[i].isCorrect) 
+          tempAnswer = foundQuestion[0].answerOptions[i].ans;
+      }
+      
+      setAnswered(
+        answered.concat(
+          answeredQuestion,
+          "Your answer was incorrect. Correct answer is ",
+          tempAnswer
+        )
+      );
+    }
+    
+    // keeping track for question count. When he counter reaches to 10, score will be displayed
+    if (counter + 1 < 10) {
+      setCounter(counter + 1);
+    } else {
+      setShowScore(true);
+    }
+  }
+
+  // filter function to find the question from 'questions' array using the question itselt
+  function searchForAnswerByQuestion(q) {
+    return function (Obj) {
+      return Obj.question === q;
+    };
+  }
+
+  // to generate a random number for index so the question at that position is displayed
+  let random = Math.floor(Math.random() * 106);
+
+  // ternary operator is used to decide whether to display questions or score(if finished)
+  // when finished score and the feedback is displayed
+  // At the end 'Re-take Quiz' button is displayed, when chicked the application is reloaded
+  return (
+    <div className="App">
+      <h2>Welcome to Team Volga MCQ</h2>
+      {showScore ? (
+        <div>
+          <h3>You scored {score} out of 10</h3>
+          <br />
+          {answered.map((q, index) => (
+            <div key={index}>
+              <b>{q}</b>{" "}
+            </div>
+          ))}
+         <button onClick={() => window.location.reload(false)}>Re-take Quiz</button>
+        </div>
+      ) : (
+        <div>
+          {questions[counter] && (
+            <p>
+              Question {counter + 1} of 10 :
+              <br />
+              {questions[random].question} <br />
+              {questions[random].answerOptions.map((a) => (
+                <button
+                  onClick={() =>
+                    handleAnswerOptionClick(
+                      a.isCorrect,
+                      questions[random].question,
+                      a.ans
+                    )
+                  }
+                >
+                  {a.ans}
+                </button>
+              ))}
+              <br />
+            </p>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+export default App;
