@@ -7,6 +7,7 @@ function App() {
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [answered, setAnswered] = useState([]);
+  const [randomNumberArray, setRandomNumberArray] = useState([]);
 
   //Fetches the 'questionBank' array from the json file in to the local array 'questions'
   useEffect(() => {
@@ -58,7 +59,7 @@ function App() {
       setAnswered(
         answered.concat(
           answeredQuestion,
-          "Your answer was incorrect. Correct answer is ",
+          "Your answer "+answer+" was incorrect. Correct answer is ",
           tempAnswer
         )
       );
@@ -80,8 +81,16 @@ function App() {
   }
 
   // to generate a random number for index so the question at that position is displayed
+  // All randomly generated numbers are stored in the array 'randomNumberArray' to see if that
+  // number was generated previously. This is to avoid the same question being repeated
   let random = Math.floor(Math.random() * 106);
-
+  let i, flag=0;
+  for (i=0; i<randomNumberArray.length; i++) {
+    if (random===randomNumberArray[i])
+      flag=1;
+  }
+  if (flag===0)
+    setRandomNumberArray(randomNumberArray.concat(random));
   // ternary operator is used to decide whether to display questions or score(if finished)
   // when finished score and the feedback is displayed
   // At the end 'Re-take Quiz' button is displayed, when chicked the application is reloaded
@@ -101,17 +110,17 @@ function App() {
         </div>
       ) : (
         <div>
-          {questions[counter] && (
+          {questions[randomNumberArray[counter]] && (
             <p>
               Question {counter + 1} of 10 :
               <br />
-              {questions[random].question} <br />
-              {questions[random].answerOptions.map((a) => (
+              {questions[randomNumberArray[counter]].question} <br />
+              {questions[randomNumberArray[counter]].answerOptions.map((a) => (
                 <button
                   onClick={() =>
                     handleAnswerOptionClick(
                       a.isCorrect,
-                      questions[random].question,
+                      questions[randomNumberArray[counter]].question,
                       a.ans
                     )
                   }
