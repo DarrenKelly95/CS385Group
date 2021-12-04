@@ -1,0 +1,120 @@
+import React, { useState, useEffect } from "react";
+import "./styles.css";
+
+function App() {
+  const [questions, setQuestions] = useState([]);
+  const [counter, setCounter] = useState(0);
+  const [score, setScore] = useState(0);
+  const [showScore, setShowScore] = useState(false);
+  const [answered, setAnswered] = useState([]);
+  //add answer as a state
+  // const [answer, setAnswer] = useState("");
+  //user selection
+  const [userSelection, setUserSelection] = useState([]);
+
+  useEffect(() => {
+    fetch(
+      "https://raw.githubusercontent.com/dazzakelly95/CS385Group/main/QuestionBank1.json"
+    )
+      .then((results) => results.json())
+      .then((data) => {
+        setQuestions(data.questionBank);
+      });
+    //console.log(showScore);
+  }, []);
+
+  function handleAnswerOptionClick(isCorrect, answeredQuestion, answer) {
+    console.log(answer);
+    if (isCorrect) {
+      setAnswered(
+        answered.concat(answeredQuestion, answer, "You answered correctly")
+      );
+      setScore(score + 1);
+    } else {
+      setAnswered(
+        answered.concat(answeredQuestion, answer, "Your answer was incorrect")
+      );
+    }
+
+    console.log(answered);
+    // if (counter + 1 < 10) {
+    //   setCounter(counter + 1);
+    // } else {
+    //   setShowScore(true);
+    // }
+  }
+  function handleNextQues(isCorrect) {
+    if (isCorrect) {
+      setScore(score + 1);
+    }
+    console.log(score);
+    if (counter + 1 < 10) {
+      setCounter(counter + 1);
+    } else {
+      setShowScore(true);
+    }
+  }
+  //
+  function getIscorrest(isCorrect) {
+    setUserSelection(isCorrect);
+    console.log(isCorrect);
+  }
+
+  function reset() {
+    setQuestions([]);
+    setCounter(0);
+    setScore(0);
+    setShowScore(false);
+    setAnswered([]);
+    setUserSelection([]);
+  }
+
+  // let random = Math.floor(Math.random() * 106);
+
+  return (
+    <div className="App">
+      <h2>Welcome to Team Volga MCQ</h2>
+      {showScore ? (
+        <div>
+          You scored {score} out of 10
+          <br />
+          {answered.map((q, index) => (
+            <div key={index}>
+              <b>{q}</b>{" "}
+            </div>
+          ))}
+          <button onClick={() => reset()}>reset</button>
+        </div>
+      ) : (
+        <div>
+          {questions[counter] && (
+            <p>
+              Question {counter + 1} of 10 :
+              <br />
+              {questions[counter].question} <br />
+              {questions[counter].answerOptions.map((a) => (
+                <button
+                  onClick={() =>
+                    // handleAnswerOptionClick(
+                    //   a.isCorrect,
+                    //   questions[random].question,
+                    //   a.ans
+                    // )
+                    getIscorrest(a.isCorrect)
+                  }
+                >
+                  {a.ans}
+                </button>
+              ))}
+              <br />
+            </p>
+          )}
+        </div>
+      )}
+      <button onClick={() => handleNextQues(userSelection)}>
+        Next Question
+      </button>
+    </div>
+  );
+}
+export default App;
