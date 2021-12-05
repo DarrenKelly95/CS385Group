@@ -1,0 +1,200 @@
+import React, { useState, useEffect } from "react";
+import "./styles.css";
+
+function App() {
+ 
+  // questions holds the questions that are imported from the API file
+  const [questions, setQuestions] = useState([]);
+  // counter holds the user's selection of number of questions
+  const [counter, setCounter] = useState(0);
+  // score is incremented when the question was answered correctly
+  const [score, setScore] = useState(0);
+  // holds a boolean value. Becomes true when all the questions have been answered and time to display score
+  const [showScore, setShowScore] = useState(false);
+  // options for the dropdown list for number of questions
+  const numberOfQuestions = (["",5,6,7,8,9,10]);
+  // index keeps track question numbers
+  const [index, setIndex] = useState(0);
+  // becomes true once the user has made their choice on number of questions
+  const [displayQuestions, setDisplayQuestions] = useState(false);
+  // answered array holds the questions that were answered 
+  const [answered, setAnswered] = useState([]);
+  //  randomNumberArray keeps track of the random numbers that were previously generated.
+  // this is needed to avoid repetetion of questions
+  const [randomNumberArray, setRandomNumberArray] = useState([]);
+
+  //Fetches the 'questionBank' array from the json file in to the local array 'questions'
+  useEffect(() => {
+    fetch(
+      "https://raw.githubusercontent.com/dazzakelly95/CS385Group/main/QuestionBank1.json"
+    )
+      .then((results) => results.json())
+      .then((data) => {
+        setQuestions(data.questionBank);
+      });
+  }, []);
+
+  // This function is invoked when the user clicks on an answer button
+  function handleAnswerOptionClick(isCorrect, answeredQuestion, answer) {
+    //The if part executes when the user clicks on the correct answer button
+    //As we are displaying 10 random questions each time from a selection of 107 questions,
+    //We have to keep track of the questions that are being displayed.
+    //We are capturing them in to the array 'answered', along with a feedback message
+    //and the correct answer
+    if (isCorrect) {
+      setAnswered(
+        answered.concat([
+          {
+            q: answeredQuestion,
+            a: "You answered correctly ",
+            a1: answer
+          }
+        ])
+      );
+      // score gets incremented each time if the answer is correct
+      setScore(score + 1);
+    } else {
+      let i;
+      var tempAnswer = "";
+
+      // getting the wrongly answered question and the answer options from 'questions' in to
+      // foundQuestion by using filter function 'searchForAnswerByQuestion'
+      let foundQuestion = questions.filter(
+        searchForAnswerByQuestion(answeredQuestion)
+      );
+      console.log(foundQuestion[0]);
+
+      // traversing through the 'answerOptions' array to find the correct answer
+      for (i = 0; i < 4; i++) {
+        if (foundQuestion[0].answerOptions[i].isCorrect)
+          tempAnswer = foundQuestion[0].answerOptions[i].ans;
+      }
+
+      setAnswered(
+        answered.concat([
+          {
+            q: answeredQuestion,
+            a: "Your answer " + answer + " is incorrect",
+            a1: tempAnswer
+          }
+        ])
+      );
+    }
+
+    // keeping track for question count. When the counter reaches to counter, 
+    // which has the user's choice of the number of questions, score will be displayed
+    if (index + 1 < counter) {
+      setIndex(index + 1);
+    } else {
+      setShowScore(true);
+    }
+  }
+
+  // filter function to find the question from 'questions' array using the question itselt
+  function searchForAnswerByQuestion(q) {
+    return function (Obj) {
+      return Obj.question === q;
+    };
+  }
+
+  // this function captures the drop down list value
+  function handleListChange(event) {
+    setCounter(event.target.value);
+    setDisplayQuestions(true);
+  }
+
+  // to generate a random number for index so the question at that position is displayed
+  // All randomly generated numbers are stored in the array 'randomNumberArray' to see if that
+  // number was generated previously. This is to avoid the same question being repeated
+  let random = Math.floor(Math.random() * 106);
+  let i,
+    flag = 0;
+  for (i = 0; i < randomNumberArray.length; i++) {
+    if (random === randomNumberArray[i]) flag = 1;
+  }
+  if (flag === 0) setRandomNumberArray(randomNumberArray.concat(random));
+  // ternary operator is used to decide whether to display questions or score(if finished)
+  // when finished score and the feedback is displayed
+  // At the end 'Re-take Quiz' button is displayed, when chicked the application is reloaded
+  return (
+    <div className="App">
+      <h2>Welcome to Team Volga MCQ</h2>
+      
+      {showScore ? (
+        <div>
+          <h3>You scored {score} out of {counter}</h3>
+          <br />
+          <table border="1">
+            <thead>
+              <tr>
+                <th>Question</th>
+                <th>Your Answer</th>
+                <th>Correct Answer</th>
+              </tr>
+            </thead>
+            <tbody>
+              {answered.map((q, index) => (
+                <tr key={index}>
+                  <td>
+                    <b>
+                      Q{index + 1}: &nbsp;{q.q}
+                    </b>
+                  </td>
+                  <td>{q.a}</td>
+                  <td>{q.a1}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <button onClick={() => window.location.reload(false)}>
+            Re-take Quiz
+          </button>
+        </div>
+      ) : (
+        <div>
+           {!displayQuestions ? (
+            <p>
+             Choose number of questions : &nbsp;
+              <select onChange={handleListChange}>
+                {numberOfQuestions.map((n, index)=>(
+                  <option key={index} value={n}>
+                   {n}
+                  </option>
+                ))}
+             </select>
+            </p>
+          )      
+          :
+          (
+          <div>
+          {questions[randomNumberArray[index]] && (
+            <p>
+              Question {index + 1} of {counter} :
+              <br />
+              {questions[randomNumberArray[index]].question} <br />
+              {questions[randomNumberArray[index]].answerOptions.map(
+                (a, jindex) => (
+                  <button
+                    key={jindex}
+                    onClick={() =>
+                      handleAnswerOptionClick(
+                        a.isCorrect,
+                        questions[randomNumberArray[index]].question,
+                        a.ans
+                      )
+                    }
+                  >
+                    {a.ans}
+                  </button>
+                )
+              )}
+              <br />
+            </p>
+          )}
+          </div>)}
+        </div>
+      )}
+    </div>
+  );
+}
+export default App;
