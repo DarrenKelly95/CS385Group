@@ -119,7 +119,7 @@ function App() {
   return (
     <div className="App">
       <h2>Welcome to Team Volga MCQ</h2>
-      
+      {/* if showScore is true display the score and feedback */}
       {showScore ? (
         <div>
           <h3>You scored {score} out of {counter}</h3>
@@ -152,8 +152,11 @@ function App() {
         </div>
       ) : (
         <div>
-           {!displayQuestions ? (
+          {/* this part gets executed when showScore is false 
+          (displays questions once the user has made their choice on no.of questions*/}
+           {!displayQuestions ? ( 
             <p>
+             {/* display the drop down list for number of questions selection */}
              Choose number of questions : &nbsp;
               <select onChange={handleListChange}>
                 {numberOfQuestions.map((n, index)=>(
@@ -167,6 +170,7 @@ function App() {
           :
           (
           <div>
+             {/* user has made their choice and ready for those many number of questions*/}
           {questions[randomNumberArray[index]] && (
             <p>
               Question {index + 1} of {counter} :
@@ -191,9 +195,10 @@ function App() {
               <br />
             </p>
           )}
-          </div>)}
+          </div>
+          )} {/* end of inner ternary operator */}
         </div>
-      )}
+      )} {/* end of outer ternary operator */}
     </div>
   );
 }
