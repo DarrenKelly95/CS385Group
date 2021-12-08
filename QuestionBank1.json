@@ -126,7 +126,7 @@
 		},
 		
 		{
-			"question": "What is the Sallest Planet in our Solar System?",
+			"question": "What is the smallest planet in our Solar System?",
 			"answerOptions": [{
 					"ans": "Jupiter",
 					"isCorrect": false
