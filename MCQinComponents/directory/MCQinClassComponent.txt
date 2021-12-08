@@ -12,7 +12,8 @@ export default class App extends Component {
     disabled: true,
     apiData: [],
     isFetched: false,
-    errorMsg: null  // determines the status of the buttons
+    errorMsg: null,  // determines the status of the buttons
+    value: '',
   }
 
   constructor(props) {
@@ -23,6 +24,9 @@ export default class App extends Component {
     this.state = {
       ...this.initialState
     }
+    this.handleChange = this.handleChange.bind(this);
+    // this.submitButtonClick = this.submitButtonClick.bind(this);
+    
   }
 
   reset = () => {
@@ -38,6 +42,16 @@ export default class App extends Component {
 
   }
 
+  handleChange(event){
+    this.setState({value: event.target.value});
+  }
+
+  // submitButtonClick(){
+  //   console.log(this.state.value);
+  // }
+
+
+
   async componentDidMount() {
     try {
       const API_URL = "https://raw.githubusercontent.com/dazzakelly95/CS385Group/main/QuizData.json";
@@ -47,7 +61,7 @@ export default class App extends Component {
       // of the response in this variable.
       const jsonResult = await response.json();
       // update the state variables correctly.
-      this.setState({ apiData: jsonResult.QuizData.slice(0,3) });
+      this.setState({ apiData: jsonResult.QuizData.slice(0,10) });
       this.setState({ isFetched: true });
     } catch (error) {
       // In the case of an error ...
@@ -163,7 +177,7 @@ export default class App extends Component {
       if (quizEnd) {
         return (
           <div>
-            <h1>Game Over. Final score is {this.state.score} points</h1>
+            <h1>Game Over. {this.state.value} Final score is {this.state.score} points</h1>
             <p>The correct Answers for the quiz are</p>
             <ul>
               {apiData.map((item, index) => (
@@ -181,7 +195,25 @@ export default class App extends Component {
         )
       }
       return (
+        
+          
+        
         <div>
+          <h1>Welcome to Team Vloga MCQ</h1>
+          <form>
+            <label>
+            Enter your name:
+            <input
+               type = "text" value={this.state.value} onChange=
+               {this.handleChange} />
+            </label>
+            
+          </form>
+          {/* <button disabled={!this.state.value} 
+              onClick={this.submitButtonClick}>  
+             Submit</button> */}
+         
+          
           <h2>{question}</h2>
           <span>{`Question ${currentIndex + 1} of ${apiData.length}`}</span>
           {options.map((option,index) => (  //for each option, new paragraph
