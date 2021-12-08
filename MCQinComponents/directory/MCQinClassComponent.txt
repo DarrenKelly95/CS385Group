@@ -1,67 +1,58 @@
-import React, { Component } from 'react'
-import './styles.css';
+import React, { Component } from "react";
+import "./styles.css";
 
 export default class App extends Component {
-
   initialState = {
     userAnswer: null, //current users answer
-    currentIndex: 0,  //current questions index
-    options: [],     //the four options
-    quizEnd: false,  //determines if it's the last question
-    score: 0,        //holds the score
+    currentIndex: 0, //current questions index
+    options: [], //the four options
+    quizEnd: false, //determines if it's the last question
+    score: 0, //holds the score
     disabled: true,
     apiData: [],
     isFetched: false,
-    errorMsg: null,  // determines the status of the buttons
-    value: '',
-  }
+    errorMsg: null, // determines the status of the buttons
+    value: ""
+  };
 
   constructor(props) {
-    super(props)
-
-    
+    super(props);
 
     this.state = {
       ...this.initialState
-    }
+    };
     this.handleChange = this.handleChange.bind(this);
     // this.submitButtonClick = this.submitButtonClick.bind(this);
-    
   }
 
   reset = () => {
     const apiData = this.state.apiData;
     this.setState({
       ...this.initialState,
-      isFetched:true,
-      apiData: [
-        ...apiData
-      ]
-    })
+      isFetched: true,
+      apiData: [...apiData]
+    });
+  };
 
-
-  }
-
-  handleChange(event){
-    this.setState({value: event.target.value});
+  handleChange(event) {
+    this.setState({ value: event.target.value });
   }
 
   // submitButtonClick(){
   //   console.log(this.state.value);
   // }
 
-
-
   async componentDidMount() {
     try {
-      const API_URL = "https://raw.githubusercontent.com/dazzakelly95/CS385Group/main/QuizData.json";
+      const API_URL =
+        "https://raw.githubusercontent.com/dazzakelly95/CS385Group/main/QuizData.json";
       // Fetch or access the service at the API_URL address
       const response = await fetch(API_URL);
       // wait for the response. When it arrives, store the JSON version
       // of the response in this variable.
       const jsonResult = await response.json();
       // update the state variables correctly.
-      this.setState({ apiData: jsonResult.QuizData.slice(0,10) });
+      this.setState({ apiData: jsonResult.QuizData.slice(0, 10) });
       this.setState({ isFetched: true });
     } catch (error) {
       // In the case of an error ...
@@ -70,7 +61,6 @@ export default class App extends Component {
       this.setState({ errorMsg: error });
     } // end of try catch
   } // end of componentDidMount()
-
 
   // loadQuiz = () => {
   //   const { currentIndex, apiData } = this.state;
@@ -86,76 +76,84 @@ export default class App extends Component {
   //   )
   // }
 
-  nextQuestionHandler = (() => {
-    const { userAnswer, answer, score } = this.state
+  nextQuestionHandler = () => {
+    const { userAnswer, answer, score } = this.state;
 
     if (userAnswer === answer) {
       this.setState({
         score: score + 1
-      })
+      });
     }
 
     this.setState({
       currentIndex: this.state.currentIndex + 1,
       userAnswer: null
-    })
-  })
+    });
+  };
 
   //  componentDidMount(){
   //    this.loadQuiz();
   //  }
 
-  checkAnswer = answer => {
+  checkAnswer = (answer) => {
     this.setState({
       userAnswer: answer,
       disabled: false
-    })
-  }
+    });
+  };
 
   componentDidUpdate(prevProps, prevState) {
     const { currentIndex, apiData } = this.state;
     // console.log(currentIndex,apiData)
-    if (this.state.currentIndex !== prevState.currentIndex || this.state.apiData !== prevState.apiData) {
+    if (
+      this.state.currentIndex !== prevState.currentIndex ||
+      this.state.apiData !== prevState.apiData
+    ) {
       // console.log(3)
       this.setState(() => {
         return {
           question: apiData[currentIndex].question,
           options: apiData[currentIndex].options,
           answer: apiData[currentIndex].answer
-        }
+        };
       });
-
     }
   }
 
   //Responds to the click of the finish button
   finishHandler = () => {
-    const { userAnswer, answer, score } = this.state
+    const { userAnswer, answer, score } = this.state;
 
     if (userAnswer === answer) {
       this.setState({
         score: score + 1
-      })
+      });
     }
 
     if (this.state.currentIndex === this.state.apiData.length - 1) {
       this.setState({
         quizEnd: true
-      })
+      });
     }
-
-  }
+  };
   renderError() {
     return (
       <div className="error">
         <h1>An error has occured in the API call</h1>
       </div>
-    )
+    );
   }
 
   render() {
-    const { question, options, currentIndex, userAnswer, quizEnd, apiData } = this.state
-  //  console.log(apiData.length,"---")
+    const {
+      question,
+      options,
+      currentIndex,
+      userAnswer,
+      quizEnd,
+      apiData
+    } = this.state;
+    //  console.log(apiData.length,"---")
     if (this.state.errorMsg) {
       return this.renderError();
       // return (
@@ -163,87 +161,90 @@ export default class App extends Component {
       //     <h1>An error has occured in the API call</h1>
       //   </div>
       // ); // end of return.
-    } 
-    
+    }
+
     if (this.state.isFetched === false) {
       return (
         <div className="fetching">
           <h1>We are loading your API request</h1>
         </div>
       ); // end of return
-    } 
-      // we have no errors and we have data
+    }
+    // we have no errors and we have data
 
-      if (quizEnd) {
-        return (
-          <div>
-            <h1>Game Over. {this.state.value} Final score is {this.state.score} points</h1>
-            <p>The correct Answers for the quiz are</p>
-            <ul>
-              {apiData.map((item, index) => (
-                <li className='ui floating message options'
-                  key={index}>
-                  {item.answer}
-                </li>
-              ))}
-            </ul>
-            <button
-              className="ui inverted button"
-              onClick={this.reset}
-            >Reset</button>
-          </div>
-        )
-      }
+    if (quizEnd) {
       return (
-        
-          
-        
         <div>
-          <h1>Welcome to Team Vloga MCQ</h1>
-          <form>
-            <label>
+          <h1>
+            Game Over. {this.state.value} Final score is {this.state.score}{" "}
+            points
+          </h1>
+          <p>The correct Answers for the quiz are</p>
+          <ul>
+            {apiData.map((item, index) => (
+              <li className="ui floating message options" key={index}>
+                {item.answer}
+              </li>
+            ))}
+          </ul>
+          <button className="ui inverted button" onClick={this.reset}>
+            Reset
+          </button>
+        </div>
+      );
+    }
+    return (
+      <div>
+        <h1>Welcome to Team Vloga MCQ</h1>
+        <form>
+          <label>
             Enter your name:
             <input
-               type = "text" value={this.state.value} onChange=
-               {this.handleChange} />
-            </label>
-            
-          </form>
-          {/* <button disabled={!this.state.value} 
+              type="text"
+              value={this.state.value}
+              onChange={this.handleChange}
+            />
+          </label>
+        </form>
+        {/* <button disabled={!this.state.value} 
               onClick={this.submitButtonClick}>  
              Submit</button> */}
-         
-          
-          <h2>{question}</h2>
-          <span>{`Question ${currentIndex + 1} of ${apiData.length}`}</span>
-          {options.map((option,index) => (  //for each option, new paragraph
-            <p key={index}
-              className={`ui floating message options
+
+        <h2>{question}</h2>
+        <span>{`Question ${currentIndex + 1} of ${apiData.length}`}</span>
+        {options.map((
+          option,
+          index //for each option, new paragraph
+        ) => (
+          <p
+            key={index}
+            className={`ui floating message options
                 ${userAnswer === option ? "selected" : null}
                 `}
-              onClick={() => this.checkAnswer(option)}
-
-            >
-              {option}
-            </p>
-          ))}
-          {currentIndex < apiData.length - 1 &&
-            <button
-              className="ui inverted button"
-              disabled={this.state.disabled}
-              onClick={this.nextQuestionHandler}
-            >Next Question</button>
-          }
-          {currentIndex === apiData.length - 1 &&
-            <button
-              className="ui inverted button"
-              disabled={this.state.disabled}
-              onClick={this.finishHandler}
-            >Finish</button>
-          }
-          
-        </div>
-      )
-    }
-  
+            onClick={() => this.checkAnswer(option)}
+          >
+            <button> {option} </button>
+          </p>
+        ))}
+        {currentIndex < apiData.length - 1 && (
+          <button
+            className="ui inverted button"
+            disabled={this.state.disabled}
+            onClick={this.nextQuestionHandler}
+          >
+            Next Question
+          </button>
+        )}
+        {currentIndex === apiData.length - 1 && (
+          <button
+            className="ui inverted button"
+            disabled={this.state.disabled}
+            onClick={this.finishHandler}
+          >
+            Finish
+          </button>
+        )}
+      </div>
+    );
+  }
 }
